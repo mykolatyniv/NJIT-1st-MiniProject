@@ -15,7 +15,7 @@
 **Formating and style:**
 
 
-- [ ] Use separate pages as necessary, don't mix the sections up, use one or more pages.
+- [x] Use separate pages as necessary, don't mix the sections up, use one or more pages.
 
 - [x] The Readme file should show your group member's name
 
@@ -25,5 +25,4 @@
 
 - [ ] Put a "Changelog" on your readme files that you list all of the changes to the document and who did them.
 
-- [ ]  Put a section of sources with links to tutorials and feel free to link to other documents in your wor
-.
+- [ ]  Put a section of sources with links to tutorials and feel free to link to other documents in your work.
