@@ -1,8 +1,8 @@
 # NJIT-1st-MiniProject
-New Jersey Institute of Technology
+**New Jersey Institute of Technology
 IS601 - 851
 
-Names: Michelle Boykins and Mykola Lupak
+Names: Michelle Boykins and Mykola Lupak**
 
 
 
@@ -11,6 +11,8 @@ Names: Michelle Boykins and Mykola Lupak
 - [x] this is a complete item
 - [ ] this is an incomplete ite
 
+
+**Formating and style:**
 
 
 - [ ] Use separate pages as necessary, don't mix the sections up, use one or more pages.
