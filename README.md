@@ -4,7 +4,15 @@ IS601 - 851
 
 Names: Michelle Boykins and Mykola Lupak
 
-Formating and style:
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+
+-[x] list syntax required (any unordered or ordered list supported)
+
+- [x] this is a complete item
+
+- [ ] this is an incomplete ite
+
+
 
 1.  Use separate pages as necessary, don't mix the sections up, use one or more pages.
 
@@ -16,4 +24,5 @@ Formating and style:
 
 5.  Put a "Changelog" on your readme files that you list all of the changes to the document and who did them.
 
-6.  Put a section of sources with links to tutorials and feel free to link to other documents in your work.
+6.  Put a section of sources with links to tutorials and feel free to link to other documents in your wor
+.
