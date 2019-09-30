@@ -38,7 +38,4 @@ NJIT-1st-MiniProject
 **Image**
 Mini Project Image.
 
-![picture](/image/1.png)
-
-
-
+![NJIT](image/1.png)
