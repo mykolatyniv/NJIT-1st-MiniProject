@@ -5,12 +5,10 @@ NJIT-1st-MiniProject
 **Names: Michelle Boykins and Mykola Lupak**
 
 **Pages**
-- Commands page [links] ()
-- Workflow page [links] ()
+- Commands page [links]()
+- Workflow page [links]()
 
-**Chnagelog**
-
-- Changes to file and by who
+**Chnagelog :changes to file and by who did it**
 - 
 -
 -
