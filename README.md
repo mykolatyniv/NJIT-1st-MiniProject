@@ -36,6 +36,9 @@ NJIT-1st-MiniProject
 - [ ] this is an incomplete item
 
 **Image**
-Mini Project Image![picture](/image/1.png)
+Mini Project Image.
+
+![picture](/image/1.png)
+
 
 
