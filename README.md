@@ -35,3 +35,7 @@ NJIT-1st-MiniProject
 - [x] this is a complete item
 - [ ] this is an incomplete item
 
+**Image**
+# Image ![Image](/image/1.png)
+
+
