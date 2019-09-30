@@ -1,2 +1,2 @@
-# Picture![GitHub Repo](/image/1.png)
+# Picture![GitHub Repo](/1.png)
 
