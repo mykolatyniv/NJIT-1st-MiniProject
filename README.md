@@ -5,15 +5,15 @@ NJIT-1st-MiniProject
 **Names: Michelle Boykins and Mykola Lupak**
 
 **Pages**
-- Commands page [links]()
-- Workflow page [links]()
+- Commands page [link]()
+- Workflow page [link]()
 
-**Chnagelog :changes to file and by who did it**
-- 
--
--
--
-
+**Changelog**
+- Mykola Lupak created new repository
+- Michelle Boykins created file workflow.md
+- Mykola Lupak created file commands.md
+- Michelle Boykins and Mykola Lupad updated README.md file
+- Mykola Lupak created source file
 
 **Formating and style:**
 
@@ -21,15 +21,15 @@ NJIT-1st-MiniProject
 
 - [x] The Readme file should show your group member's name
 
-- [ ] The Readme file should be an index to your other pages and link to them.
+- [x] The Readme file should be an index to your other pages and link to them.
 
-- [ ] Use markdown (Links to an external site.) to style the pages nicely with headings, bullet points, multiple pages linked together. and pictures.
+- [x] Use markdown (Links to an external site.) to style the pages nicely with headings, bullet points, multiple pages linked together. and pictures.
 
-- [ ] Put a "Changelog" on your readme files that you list all of the changes to the document and who did them.
+- [x] Put a "Changelog" on your readme files that you list all of the changes to the document and who did them.
 
-- [ ]  Put a section of sources with links to tutorials and feel free to link to other documents in your work.
+- [x]  Put a section of sources with links to tutorials and feel free to link to other documents in your work.
 
-
+**Markdown format sample**
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
