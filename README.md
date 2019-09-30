@@ -5,8 +5,8 @@ NJIT-1st-MiniProject
 **Names: Michelle Boykins and Mykola Lupak**
 
 **Pages**
-- Commands page [link]()
-- Workflow page [link]()
+- Commands page [link](/commands.md)
+- Workflow page [link](/workflow.md)
 
 **Changelog**
 - Mykola Lupak created new repository
@@ -14,6 +14,8 @@ NJIT-1st-MiniProject
 - Mykola Lupak created file commands.md
 - Michelle Boykins and Mykola Lupad updated README.md file
 - Mykola Lupak created source file
+- Mykola Lupak created and uploaded image 
+- Mykola Lupak added to readme file
 
 **Formating and style:**
 
