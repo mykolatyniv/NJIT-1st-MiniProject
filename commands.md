@@ -13,6 +13,9 @@ Command | Example
 **file paths in linux**: find the location of GIT installation directory in linux | cd /home/YOURNAME/
 **Using the tab key to complete file paths**: It autocompletes what you've written, which reduces typos very efficiently. For example, when you want to switch to a different directory, you can either type every component of the path yourself | cd ~/projects/acmedesign/documentation/
 **Using up and down arrow for history**: ARROW UP key, you can step through the last commands you called (starting with the most recently used). ARROW DOWN will move forward in history towards the most recent call | Arrow Keys
+**vi**: open text editor | vi commands.md > i > type your text> press esc > type wq. Thank git add commands.md> git commit -m "test" and final step: git push
+
+
 
 Readme page [readme](/README.md)
 
