@@ -2,12 +2,12 @@ You must have a section that explains commands and gives example(s) usage for us
 
 Command | Example
 ------------ | -------------
-**cd**: chage directory | command example: git cd image
+**cd**: chage directory | git cd image
 **mkdir**: |
 **cp**: |
 **pwd**: | 
 **mv**: |
-**rm**: delete the file from project and stage the removal for commi | command example: git rm image.md
+**rm**: delete the file from project and stage the removal for commitment | git rm image.md
 **history**: |
 **Home directory and ~ function**: |
 **file paths in linux**: |
