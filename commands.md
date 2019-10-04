@@ -2,13 +2,13 @@
 
 
 
-Readme Page [readme](/README.md)
+Readme Page [Click Here](/README.md)
 
 
 
 
 *	 <a href="#cd">cd </a>
-*        <a href="#mkdir">mkdir</a> 
+*        <a href="#mkdir">mkdir </a> 
 *	 <a href="#cp">cp </a> 
 *	 <a href="#pwd">pwd</a> 
 *	 <a href="#mv">mv</a> 
@@ -53,7 +53,7 @@ mkdir new-folder
 ___________________________________________________________________________________________________________________________________
 
 
-Readme Page [readme](/README.md)
+Readme Page [Click Here](/README.md)
 
 
 
