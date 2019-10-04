@@ -12,6 +12,9 @@ NJIT-1st-MiniProject
 - **Workflow Part - Michelle Boykins:** [link](/repository.md) 
 
 **Changelog**
+- 10/4/2019 Michelle updated Readme.md.
+- 10/4/2019 Michelle comitted and added definition for term commit.
+- 10/4/2019 Michelle comitted and added definition for term branch.
 - 10/4/2019 Michelle comitted and added definition for term fork.
 - 10/3/2019 Michelle uploaded images clone_image.png, gitflow.png, git_repos_image_source.png to image folder.
 - 10/3/2019 Michelle comitted and added definitions for gitflow and Git commands and terminology.
