@@ -6,7 +6,7 @@
 *	 <a href="#branch">Branch</a> 
 *	 <a href="#commit">Commit</a> 
 *	 <a href="#merge">Merge</a> 
-*	 <a href="#clone">Checkout</a> 
+*	 <a href="#checkout">Checkout</a> 
 *	 <a href="#clone">Push</a> 
 *	<a href="#clone">Pull </a> 
 *	 <a href="#clone">Remote Add / Remove / Show </a> 
@@ -204,4 +204,21 @@ git branch -d issue10			   ---->Delete a branch <br>
 <br>
 <br>
 __________________________________________________________________________________________________________________________________
+<a name="checkout">  
+  
+# Checkout
 
+In Git terms, a "checkout" is the act of switching between different versions of a target entity.  The git checkout command operates upon three distinct entities: files, commits, and branches. </br>
+
+To checkout a specific commit, run the command: git checkout specific-commit-id  </br>
+
+To checkout an existing branch, run the command: git checkout BRANCH-NAME  </br>
+
+You can use the git checkout command to undo changes you’ve made to a file in your working directory. This will revert the file back to the version in HEAD: git checkout -- FILE-NAME
+
+
+<a href="#top">Return to  Git Commands and Terminology</a>
+<br>
+<br>
+
+__________________________________________________________________________________________________________________________________
