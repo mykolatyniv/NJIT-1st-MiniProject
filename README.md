@@ -8,57 +8,20 @@ NJIT-1st-MiniProject
 
 **Pages Index**
 
-- [ ] **Commands Part - Mykola Lupak**:
-- You must have a section that explains commands and gives example(s) usage for use Vi to create and edit files on Linux and the basic commands that you need to manage the file system: Questions to answer: What is it? Why do you do it? How do you do it?
-
-Command | Link
------------- | -------------
-**cd** | Page Link
-**mkdir** | Page Link
-**cp** | Page Link
-**pwd** | Page Link
-**mv** | Page Link
-**rm** | Page Link
-**history** | Page Link
-**Home directory and ~ command** | Page Link
-**file paths in linux** | Page Link
-**Using the tab key to complete file paths** | Page Link
-**Using up and down arrow for history** | Page Link
-**vi** | Page Link
-
-- [ ] **Workflow Part - Michelle Boykins:**
-- You must explain the gitFlow, workflow and have a section to define and give examples of how to use the following Git commands and terminology:
-
-
-Command | Link
------------- | -------------
-**Repository** | Page Link
-**Clone** | Page Link
-**Fork** | Page Link
-**Branch** | Page Link
-**Commit** | Page Link
-**Merge** | Page Link
-**Checkout** | Page Link
-**Push** | Page Link
-**Pull** | Page Link
-**Remote Add / Remove / Show** | Page Link
-**Status** | Page Link
-**Master Branch** | Page Link
-
+- **Commands Part - Mykola Lupak** [link](/commands.md)
+- **Workflow Part - Michelle Boykins:** [link](/repository.md) 
 
 **Changelog**
 - 10/4/2019 Michelle comitted and added definition for term fork.
 - 10/3/2019 Michelle uploaded images clone_image.png, gitflow.png, git_repos_image_source.png to image folder.
 - 10/3/2019 Michelle comitted and added definitions for gitflow and Git commands and terminology.
-- Mykola Lupak created new repository
-- Michelle Boykins created file workflow.md
-- Mykola Lupak created file commands.md
-- Michelle Boykins and Mykola Lupad updated README.md file
-- Mykola Lupak created source file
-- Mykola Lupak created and uploaded image 
-- Mykola Lupak added to readme file
-- Mykola Lupak updated commands file
-- Michelle Boykins uploaded new pages
+- 9/26/2019 Mykola Lupak created new repository
+- 9/26/2019 Mykola Lupak created file commands.md
+- 9/26/2019 Michelle Boykins and Mykola Lupad updated README.md file
+- 9/26/2019 Mykola upak created and uploaded image 
+- 9/26/2019 Mykola Lupak added information to readme file
+- 9/26/2019 Mykola Lupak created new repository
+
 
 **Formating and style:**
 
