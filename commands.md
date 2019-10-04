@@ -17,7 +17,7 @@ Readme Page [Click Here](/README.md)
 *	 <a href="#home">Home directory and ~</a>
 *	 <a href="#file">File paths in linux</a>
 *	 <a href="#path">Using the tab key to complete file paths</a>
-*	 <a href="#arrow">Using up and down arrow for history</a
+*	 <a href="#arrow">Using up and down arrow for history</a>
 *	 <a href="#vi">vi</a>
 ___________________________________________________________________________________________________________________________________
 </br>
