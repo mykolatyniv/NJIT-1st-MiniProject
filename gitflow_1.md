@@ -1,4 +1,4 @@
-# gitFlow Workflow
+﻿# gitFlow Workflow
 
 
 
@@ -27,4 +27,10 @@ Once development is complete, the release branch gets merged into master and tag
 Maintenance or “hotfix” branches are used to quickly patch production releases. Hotfix branches are a lot like release branches and feature branches except they're based on master instead of develop. This is the only branch that should fork directly off of master. As soon as the fix is complete, it should be merged into both master and develop (or the current release branch), and master should be tagged with an updated version number.
 
 ____________________________________________________________
+
+Readme Page [Click Here](/README.md)
+
+
+
+
 <sup>1</sup>https://datasift.github.io/gitflow/IntroducingGitFlow.html
