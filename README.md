@@ -8,7 +8,7 @@ NJIT-1st-MiniProject
 
 **Pages Index**
 
- [] **Commands Part - Mykola Lupak**:
+- [ ] **Commands Part - Mykola Lupak**:
 - You must have a section that explains commands and gives example(s) usage for use Vi to create and edit files on Linux and the basic commands that you need to manage the file system: Questions to answer: What is it? Why do you do it? How do you do it?
 
 Command | Link
@@ -26,7 +26,7 @@ Command | Link
 **Using up and down arrow for history** | Page Link
 **vi** | Page Link
 
- [] **Workflow Part - Michelle Boykins:**
+- [ ] **Workflow Part - Michelle Boykins:**
 - You must explain the gitFlow, workflow and have a section to define and give examples of how to use the following Git commands and terminology:
 
 
