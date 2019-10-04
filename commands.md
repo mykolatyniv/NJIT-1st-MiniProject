@@ -24,13 +24,14 @@ ________________________________________________________________________________
 <a name="cd">
   
 ## CD
- - change directory, to change this current working directory
+ - change directory, to change this current working directory.
 
 ## Example: 
-- git cd image.md
+- git cd 
+to move into subfolders, you would call something like this.
+- git cd name-of-subfolder/sub-subfolder/
 
-
-Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
+Source: [link to source site](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/command-line-101)
 </a>
 
 <a href="#top">Git Commands Part</a>
@@ -46,7 +47,7 @@ ________________________________________________________________________________
 ### Example:
 - mkdir new-folder
 
-Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
+Source: [link to source site](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/command-line-101)
 
 </a>
 
@@ -60,12 +61,12 @@ ________________________________________________________________________________
   
 ## CP 
 
-- the "cp" command uses the same syntax as the "mv" command. The difference being that while "mv" moves the original file, "cp" creates a second file with the same contents
+- cp stands for copy. This command is used to copy files or group of files or directory. It creates an exact image of a file on a disk with different file name. cp command require at least two filenames in its arguments. 
 
 ### Example:
-- cp
+- cp [OPTION] Source Directory
 
-Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
+Source: [link to source site](https://www.geeksforgeeks.org/cp-command-linux-examples/)
 </a>
 
 <a href="#top">Git Commands Part</a>
@@ -83,7 +84,7 @@ ________________________________________________________________________________
 ### Example:
 - pwd
 
-Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
+Source: [link to source site](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/command-line-101)
 </a>
 
 <a href="#top">Git Commands Part</a>
@@ -100,8 +101,10 @@ ________________________________________________________________________________
 
 ### Example:
 - mv path/to/file.ext different/path/file.ext
+The "mv" command can also be used to rename a file
+-  mv old-filename.ext new-filename.ext
 
-Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
+Source: [link to source site](hhttps://www.git-tower.com/learn/git/ebook/en/command-line/appendix/command-line-101)
 </a>
 
 <a href="#top">Git Commands Part</a>
@@ -114,12 +117,15 @@ ________________________________________________________________________________
   
 ## RM 
 
-- delete the file from project and stage the removal for commitment
+- deletes the file from your working directory and stages the deletion
 
 ### Example:
 - git rm image.md
+When trying to delete a folder, however, please note that you'll have to add the "-r" flag (which stand for "recursive")
+- rm -r path/to/folder
 
-Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
+Source: [link to source site](https://dzone.com/articles/top-20-git-commands-with-examples)
+Source: [link to source site](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/command-line-101)
 </a>
 
 <a href="#top">Git Commands Part</a>
@@ -135,7 +141,7 @@ ________________________________________________________________________________
 - checking git commit history
 
 ### Example:
-- git log, gitk, git show head
+- history, git log, gitk - visualize and browse history
 
 Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
 </a>
@@ -190,8 +196,10 @@ ________________________________________________________________________________
 
 ### Example:
 - cd ~/projects/acmedesign/documentation
+Or you make use of the TAB key (try this yourself!)
+- cd ~/pr[TAB]ojects/ac[TAB]medesign/doc[TAB]umentation/
 
-Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
+Source: [link to source site](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/command-line-101)
 </a>
 
 <a href="#top">Git Commands Part</a>
@@ -208,7 +216,7 @@ ________________________________________________________________________________
 ### Example:
 - Arrow Keys
 
-Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
+Source: [link to source site](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/command-line-101)
 </a>
 
 <a href="#top">Git Commands Part</a>
