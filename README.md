@@ -47,6 +47,9 @@ Command | Link
 
 
 **Changelog**
+- 10/4/2019 Michelle comitted and added definition for term fork.
+- 10/3/2019 Michelle uploaded images clone_image.png, gitflow.png, git_repos_image_source.png to image folder.
+- 10/3/2019 Michelle comitted and added definitions for gitflow and Git commands and terminology.
 - Mykola Lupak created new repository
 - Michelle Boykins created file workflow.md
 - Mykola Lupak created file commands.md
