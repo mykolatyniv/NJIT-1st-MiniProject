@@ -5,7 +5,7 @@
 *	<a href="#fork">Fork </a> 
 *	 <a href="#branch">Branch</a> 
 *	 <a href="#commit">Commit</a> 
-*	 <a href="#clone">Merge</a> 
+*	 <a href="#merge">Merge</a> 
 *	 <a href="#clone">Checkout</a> 
 *	 <a href="#clone">Push</a> 
 *	<a href="#clone">Pull </a> 
@@ -132,6 +132,9 @@ $git check out issue10     -> This command switches to the new branch “issue10
 Abbreviated command: $git checkout -b issue10
 <br>
 <br>
+<a href="#top">Return to  Git Commands and Terminology</a>
+<br>
+<br>
 ___________________________________________________________________________________________________________________________________
 <a name="commit">  
   
@@ -152,3 +155,53 @@ Then commit the file:  <br>
 $git commit -m  “commit message”  
 **  -m = Passing the -m option will forgo the text editor and prompt in-favor of an inline message. <br>
 File hello-world.py will be saved in the local Git repository.
+
+<a href="#top">Return to  Git Commands and Terminology</a>
+<br>
+<br>
+___________________________________________________________________________________________________________________________________
+<a name="merge">  
+  
+# Merge
+
+The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch.
+Git merge will combine multiple sequences of commits into one unified history. In the most frequent use cases, git merge is used to combine two branches.  There are two main ways Git will merge: Fast Forward and Three way.</br>
+
+
+
+Fast Forward Merge</br>
+A fast-forward merge can occur when there is a linear path between branches that you want to merge (see image below). </br>
+
+ ![](image/fastforward_merge.png)
+
+
+Three-Way Merge</br>
+When there is not a linear path to the target branch, Git has no choice but to combine them via a three-way merge. This merge uses an extra commit to tie together the two branches (see image below).</br>
+
+ ![](image/threeway_merge.png)
+
+
+
+Merge command line syntax: </br>
+$git merge "branch name"     ------>where "branch name" is the name of the branch that will be merged into the receiving branch. <br>
+
+#### Example:
+The code below creates a new branch, adds two commits to it, then integrates it into the main line with a fast-forward merge. <br>
+#Start a new feature named issue10 		------>comment <br>
+$git checkout -b issue10 master <br>
+#Edit some files      				 ------>comment <br>
+git add <file> <br>
+git commit -m "The start of a feature" <br>
+#Edit some files     				 ------>comment <br>
+git add <file> <br>
+git commit -m "The end of a feature" <br>
+#Merge in the issue10 branch   ------>comment <br>
+git checkout master <br>
+git merge issue10				------>Merge a branch <br>
+git branch -d issue10			   ---->Delete a branch <br>
+
+<a href="#top">Return to  Git Commands and Terminology</a>
+<br>
+<br>
+__________________________________________________________________________________________________________________________________
+
