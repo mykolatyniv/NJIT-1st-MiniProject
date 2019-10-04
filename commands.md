@@ -8,7 +8,7 @@ Readme Page [Click Here](/README.md)
 
 
 *	 <a href="#cd">cd </a>
-*        <a href="#mkdir">mkdir </a> 
+*        <a href="#2">mkdir </a> 
 *	 <a href="#cp">cp </a> 
 *	 <a href="#pwd">pwd</a> 
 *	 <a href="#mv">mv</a> 
@@ -36,7 +36,7 @@ cd image.md
 <br>
 <br>
 ___________________________________________________________________________________________________________________________________
-<a name="mkdir"> 
+<a name="2"> 
   
 ## mkdir 
 
