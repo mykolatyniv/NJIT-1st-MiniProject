@@ -12,7 +12,7 @@ NJIT-1st-MiniProject
 - **Workflow Part - Michelle Boykins:** [link](/repository.md) 
 
 **Changelog**
-- 10/4/2019 Mykola deleted workflow file
+- 10/4/2019 Mykola Lupak deleted workflow file
 - 10/4/2019 Michelle updated Readme.md.
 - 10/4/2019 Michelle comitted and added definition for term commit.
 - 10/4/2019 Michelle comitted and added definition for term branch.
