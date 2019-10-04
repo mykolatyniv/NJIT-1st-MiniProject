@@ -1,4 +1,10 @@
-# Git Commands and Terminology <a name="top">
+﻿# Git Commands and Terminology <a name="top">
+
+
+Readme Page [Click Here](/README.md)
+
+
+
 
 *	<a href="#repository">Repository </a>
 * <a href="#clone">Clone</a> 
@@ -222,3 +228,7 @@ You can use the git checkout command to undo changes you’ve made to a file in 
 <br>
 
 __________________________________________________________________________________________________________________________________
+
+Readme Page [Click Here](/README.md)
+
+
