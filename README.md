@@ -8,8 +8,8 @@ NJIT-1st-MiniProject
 
 **Pages Index**
 
-- Commands Part - Mykola Lupak:
-You must have a section that explains commands and gives example(s) usage for use Vi to create and edit files on Linux and the basic commands that you need to manage the file system: Questions to answer: What is it? Why do you do it? How do you do it?
+- **Commands Part - Mykola Lupak**:
+- You must have a section that explains commands and gives example(s) usage for use Vi to create and edit files on Linux and the basic commands that you need to manage the file system: Questions to answer: What is it? Why do you do it? How do you do it?
 
 Command | Link
 ------------ | -------------
@@ -38,6 +38,7 @@ Command | Link
 - Mykola Lupak created and uploaded image 
 - Mykola Lupak added to readme file
 - Mykola Lupak updated commands file
+- Michelle Boykins uploaded new pages
 
 **Formating and style:**
 
