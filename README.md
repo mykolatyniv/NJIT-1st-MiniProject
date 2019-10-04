@@ -7,8 +7,27 @@ NJIT-1st-MiniProject
 **Names: Michelle Boykins and Mykola Lupak**
 
 **Pages Index**
-- Commands page [link](/commands.md)
-- Workflow page [link](/workflow.md)
+
+- Commands Part - Mykola Lupak:
+You must have a section that explains commands and gives example(s) usage for use Vi to create and edit files on Linux and the basic commands that you need to manage the file system: Questions to answer: What is it? Why do you do it? How do you do it?
+
+Command | Link
+------------ | -------------
+**cd** | Page Link
+**mkdir** | Page Link
+**cp** | Page Link
+**pwd** | Page Link
+**mv** | Page Link
+**rm** | Page Link
+**history** | Page Link
+**Home directory and ~ command** | Page Link
+**file paths in linux** | Page Link
+**Using the tab key to complete file paths** | Page Link
+**Using up and down arrow for history** | Page Link
+**vi** | Page Link
+
+- Workflow Part - Michelle Boykins:
+
 
 **Changelog**
 - Mykola Lupak created new repository
