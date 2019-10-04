@@ -3,7 +3,7 @@
 *	<a href="#repository">Repository </a>
 * <a href="#clone">Clone</a> 
 *	<a href="#fork">Fork </a> 
-*	 <a href="#clone">Branch</a> 
+*	 <a href="#branch">Branch</a> 
 *	 <a href="#clone">Commit</a> 
 *	 <a href="#clone">Merge</a> 
 *	 <a href="#clone">Checkout</a> 
@@ -112,3 +112,21 @@ Since you are the owner of that project, you will be able to make any changes yo
 <br>
 <br>
 ___________________________________________________________________________________________________________________________________
+<a name="branch">  
+  
+# Branch
+
+A branch in Git is simply a lightweight movable pointer to one of these commits. The default branch name in Git is master. As you initially make commits, you're given a master branch that points to the last commit you made. Every time you commit, it moves forward automatically. <br>
+Branching is the practice of creating copies of programs or objects in development to work in parallel versions, retaining the original and working on the branch or making different changes to each. Each copy is considered a branch; the original program from which the branch is taken is referred to as the trunk, the baseline, the mainline or the master.
+Branching is used in version control and software management to maintain stability while isolated changes are made to code. Branching facilitates the development of bug fixes, the addition of new capabilities and the integration of new versions after they have been tested in isolation.<br>
+ 
+ In the image below, Branch1 and Branch2 are copies of the program in development which will allow the developers to work in parallel versions.
+ 
+ ![](image/masterbranch2.png)
+ 
+ 
+#### Example:
+##### Scenario:  You are working on a project for Website development.You decide you are going to work on a new issue, namely issue10, pertaining to the website.  You create a branch so that you can do work on issue10. There are a few commits already on the master branch.  To create a new branch and switch to it, follow the following commands:</br></br>
+$git branch issue10       -> This command creates new branch named “issue10” </br></br>
+$git check out issue10     -> This command switches to the new branch “issue10” </br>
+Abbreviated command: $git checkout -b issue10
