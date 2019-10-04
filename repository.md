@@ -4,7 +4,7 @@
 * <a href="#clone">Clone</a> 
 *	<a href="#fork">Fork </a> 
 *	 <a href="#branch">Branch</a> 
-*	 <a href="#clone">Commit</a> 
+*	 <a href="#commit">Commit</a> 
 *	 <a href="#clone">Merge</a> 
 *	 <a href="#clone">Checkout</a> 
 *	 <a href="#clone">Push</a> 
@@ -130,3 +130,25 @@ Branching is used in version control and software management to maintain stabili
 $git branch issue10       -> This command creates new branch named “issue10” </br></br>
 $git check out issue10     -> This command switches to the new branch “issue10” </br>
 Abbreviated command: $git checkout -b issue10
+<br>
+<br>
+___________________________________________________________________________________________________________________________________
+<a name="commit">  
+  
+# Commit
+
+The "commit" command is used to save your changes to the local repository. You have to explicitly tell Git which changes you want to include in a commit before running the "git commit" command. This means that a file won't be automatically included in the next commit just because it was changed. Instead, you need to use the "git add" command to mark the desired changes for inclusion.<br><br>
+A commit is not automatically transferred to the remote server, you need to use the "git add" command to mark the desired changes for inclusion. Following the "git add" command the changes will be placed in a staging area awaiting a "git commit" command {see diagram below}.   
+
+![](image/commit.png)
+
+<br>Using the "git commit" command only saves a new commit object in the local Git repository. <br><br>
+Typing $git commit -m "<message>" at the command line is the proper syntax of the git commit command**. <br>
+
+#### Example:
+Assume you edited a file called hello-world.py and you are ready to commit it to the project’s history. First stage the file with git add:<br>
+$git add hello-world.py<br>
+Then commit the file:  <br>
+$git commit -m  “commit message”  
+**  -m = Passing the -m option will forgo the text editor and prompt in-favor of an inline message. <br>
+File hello-world.py will be saved in the local Git repository.
