@@ -7,8 +7,8 @@ Readme Page [Click Here](/README.md)
 
 
 
-*	 <a href="#cd">cd </a>
-*        <a href="#2">mkdir </a> 
+*	 <a href="#cd">cd </a> 
+*	 <a href="#2">mkdir </a>
 *	 <a href="#cp">cp </a> 
 *	 <a href="#pwd">pwd</a> 
 *	 <a href="#mv">mv</a> 
@@ -23,7 +23,7 @@ ________________________________________________________________________________
 <a name="cd">
   
 ## CD
-CD - change directory, to change this current working directory
+ - change directory, to change this current working directory
 
 ### Example: 
 cd image.md
@@ -38,13 +38,33 @@ cd image.md
 ___________________________________________________________________________________________________________________________________
 <a name="2"> 
   
-## mkdir 
+## MKDIR 
 
-mkdiir - make new directory" command, create a new folder.
+ - make new directory" command, create a new folder.
 
 #### Example:
 mkdir new-folder
 
+##Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
+
+</a>
+
+<a href="#top">Git Commands Part</a>
+<br>
+<br>
+___________________________________________________________________________________________________________________________________
+
+
+<a name="cp"> 
+  
+## CP 
+
+- the "cp" command uses the same syntax as the "mv" command. The difference being that while "mv" moves the original file, "cp" creates a second file with the same contents
+
+#### Example:
+cp
+
+##Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
 </a>
 
 <a href="#top">Git Commands Part</a>
