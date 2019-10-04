@@ -30,7 +30,7 @@ ________________________________________________________________________________
 - git cd image.md
 
 
-## Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
+Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
 </a>
 
 <a href="#top">Git Commands Part</a>
@@ -46,7 +46,7 @@ ________________________________________________________________________________
 ### Example:
 - mkdir new-folder
 
-## Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
+Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
 
 </a>
 
@@ -65,7 +65,7 @@ ________________________________________________________________________________
 ### Example:
 - cp
 
-## Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
+Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
 </a>
 
 <a href="#top">Git Commands Part</a>
@@ -83,7 +83,7 @@ ________________________________________________________________________________
 ### Example:
 - pwd
 
-## Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
+Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
 </a>
 
 <a href="#top">Git Commands Part</a>
@@ -101,7 +101,7 @@ ________________________________________________________________________________
 ### Example:
 - mv path/to/file.ext different/path/file.ext
 
-## Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
+Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
 </a>
 
 <a href="#top">Git Commands Part</a>
@@ -119,7 +119,7 @@ ________________________________________________________________________________
 ### Example:
 - git rm image.md
 
-## Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
+Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
 </a>
 
 <a href="#top">Git Commands Part</a>
@@ -137,7 +137,7 @@ ________________________________________________________________________________
 ### Example:
 - git log, gitk, git show head
 
-## Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
+Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
 </a>
 
 <a href="#top">Git Commands Part</a>
@@ -155,7 +155,7 @@ ________________________________________________________________________________
 ### Example:
 - check git config, home directory in windows: C:\Documents and Settings\All Users\Application Data\Git\config
 
-## Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
+Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
 </a>
 
 <a href="#top">Git Commands Part</a>
@@ -174,7 +174,7 @@ ________________________________________________________________________________
 - cd /home/YOURNAME/
 
 
-## Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
+Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
 </a>
 
 <a href="#top">Git Commands Part</a>
@@ -191,7 +191,7 @@ ________________________________________________________________________________
 ### Example:
 - cd ~/projects/acmedesign/documentation
 
-## Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
+Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
 </a>
 
 <a href="#top">Git Commands Part</a>
@@ -208,7 +208,7 @@ ________________________________________________________________________________
 ### Example:
 - Arrow Keys
 
-## Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
+Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
 </a>
 
 <a href="#top">Git Commands Part</a>
@@ -229,7 +229,7 @@ ________________________________________________________________________________
 
 
 
-## Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
+Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
 </a>
 
 <a href="#top">Git Commands Part</a>
