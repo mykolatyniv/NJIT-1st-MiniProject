@@ -28,7 +28,7 @@ ________________________________________________________________________________
 
 ## Example: 
 - git cd 
-to move into subfolders, you would call something like this.
+- [ ] to move into subfolders, you would call something like this.
 - git cd name-of-subfolder/sub-subfolder/
 
 Source: [link to source site](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/command-line-101)
@@ -101,7 +101,7 @@ ________________________________________________________________________________
 
 ### Example:
 - mv path/to/file.ext different/path/file.ext
-The "mv" command can also be used to rename a file
+- [ ] The "mv" command can also be used to rename a file
 -  mv old-filename.ext new-filename.ext
 
 Source: [link to source site](hhttps://www.git-tower.com/learn/git/ebook/en/command-line/appendix/command-line-101)
@@ -121,7 +121,7 @@ ________________________________________________________________________________
 
 ### Example:
 - git rm image.md
-When trying to delete a folder, however, please note that you'll have to add the "-r" flag (which stand for "recursive")
+- [ ] When trying to delete a folder, however, please note that you'll have to add the "-r" flag (which stand for "recursive")
 - rm -r path/to/folder
 
 Source: [link to source site](https://dzone.com/articles/top-20-git-commands-with-examples)
@@ -196,7 +196,7 @@ ________________________________________________________________________________
 
 ### Example:
 - cd ~/projects/acmedesign/documentation
-Or you make use of the TAB key (try this yourself!)
+- [ ] Or you make use of the TAB key (try this yourself!)
 - cd ~/pr[TAB]ojects/ac[TAB]medesign/doc[TAB]umentation/
 
 Source: [link to source site](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/command-line-101)
