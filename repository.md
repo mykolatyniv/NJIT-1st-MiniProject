@@ -14,7 +14,7 @@ Readme Page [Click Here](/README.md)
 *	 <a href="#merge">Merge</a> 
 *	 <a href="#checkout">Checkout</a> 
 *	 <a href="#push">Push</a> 
-*	<a href="#clone">Pull </a> 
+*	<a href="#pull">Pull </a> 
 *	 <a href="#clone">Remote Add / Remove / Show </a> 
 *	 <a href="#clone">Status</a> 
 *	<a href="#clone">Master Branch </a> 
@@ -253,7 +253,40 @@ git add <filename>
 git commit -m "added some changes to my repo!"
 #push changes in `master` branch to github
 git push origin master
+  
+  
+<a href="#top">Return to  Git Commands and Terminology</a>
+<br>
+<br>
+__________________________________________________________________________________________________________________________________
+<a name="pull">  
+  
+# Pull
+The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content.  The git pull command is actually a combination of two other commands, git fetch followed by git merge. In the first stage of operation git pull will execute a git fetch scoped to the local branch that HEAD is pointed at. Once the content is downloaded, git pull will enter a merge workflow. A new merge commit will be-created and HEAD updated to point at the new commit.
 
+git pull is a Git command used to update the local version of a repository from a remote.
+
+It is one of the four commands that prompts network interaction by Git. By default, git pull does two things.
+
+1.	Updates the current local working branch (currently checked out branch)
+2.	Updates the remote tracking branches for all other branches.
+
+git pull fetches (git fetch) the new commits and merges (git merge) these into your local branch.
+
+
+![](image/pull.png)
+
+
+This command’s syntax is as follows:  git pull <remote>
+
+#### Example: 
+--Fetch the specified remote’s copy of the current branch and immediately merge it into the local copy.
+git pull origin master 
+
+
+<a href="#top">Return to  Git Commands and Terminology</a>
+<br>
+<br>
 __________________________________________________________________________________________________________________________________
 
 Readme Page [Click Here](/README.md)
