@@ -1,7 +1,7 @@
 ﻿# Git Commands and Terminology <a name="top">
 
 
-Readme Page [Click Here](/README.md)
+Return to Readme Page [Click Here](/README.md)
 
 
 
@@ -17,7 +17,7 @@ Readme Page [Click Here](/README.md)
 *	<a href="#pull">Pull </a> 
 *	 <a href="#remote">Remote Add / Remove / Show </a> 
 *	 <a href="#status">Status</a> 
-*	<a href="#clone">Master Branch </a> 
+*	<a href="#masterbranch">Master Branch </a> 
 
 ___________________________________________________________________________________________________________________________________
 </br>
@@ -344,30 +344,42 @@ ________________________________________________________________________________
 The git status command displays the state of the working directory and the staging area. It lets you see which changes have been staged, which haven’t, and which files aren’t being tracked by Git. Status output does not show you any information regarding the committed project history.
 
 #### Example: 
-\$git status
-Lists which files are staged, unstaged, and untracked.
-Sample output of Git status:
-\# On branch master
-\# Changes to be committed:
-\# (use "git reset HEAD <file>..." to unstage)
-\#
-\#modified: hello.py
-\#
-\# Changes not staged for commit:
-\# (use "git add <file>..." to update what will be committed)
-# (use "git checkout -- <file>..." to discard changes in working directory)
-#
-#modified: main.py
-#
-# Untracked files:
-# (use "git add <file>..." to include in what will be committed)
-#
-#hello.pyc
+\$git status</br>
+Lists which files are staged, unstaged, and untracked.</br>
+Sample output of Git status:</br>
+\# On branch master</br>
+\# Changes to be committed:</br>
+\# (use "git reset HEAD <file>..." to unstage)</br>
+\#</br>
+\#modified: hello.py</br>
+\#</br>
+\# Changes not staged for commit:</br>
+\# (use "git add <file>..." to update what will be committed)</br>
+\# (use "git checkout -- <file>..." to discard changes in working directory)</br>
+\#</br>
+\#modified: main.py</br>
+\#</br>
+\# Untracked files:</br>
+\# (use "git add <file>..." to include in what will be committed)</br>
+\#</br>
+#hello.pyc</br>
 
 <a href="#top">Return to  Git Commands and Terminology</a>
 <br>
 <br>
+__________________________________________________________________________________________________________________________________
+<a name="masterbranch">  
+  
+# Master Branch
+In Git, "master" is a naming convention for a branch. After cloning (downloading) a project from a remote server, the resulting local repository has a single local branch: the so-called "master" branch. This means that "master" can be seen as a repository's "default" branch.
+A branch is essentially a unique set of code changes with a unique name. Each repository can have one or more branches. The main branch — the one where all changes eventually get merged back into, and is called master.</br>
 
-Readme Page [Click Here](/README.md)
+Git will automatically create a master branch by default. Every next commit you make will go to the master branch until you decide to create and switch over to another branch.</br>
+
+![](image/masterbranchlast_small.png)
+</br>
+In the above image we have a master branch and a pointer pointing at the last commit.
+__________________________________________________________________________________________________________________________________
+Return to Readme Page [Click Here](/README.md)
 
 
