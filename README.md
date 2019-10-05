@@ -15,8 +15,7 @@ NJIT-1st-MiniProject
 - 10/5/2019 Michelle updated readme changelog.
 - 10/5/2019 Michelle uploaded images fastforward_merge.png, fork.png, fork_github.png,threeway_merge.png to image folder.
 - 10/5/2019 Michelle uploaded images after_pushing2.png, before_pushing2.png, commit.png,fastforward_merge.png to image folder.
-- 10/5/2019 Michelle comitted and added definition for term pull.
-- 10/5/2019 Michelle comitted and added definition for term push.
+- 10/5/2019 Michelle comitted and added definition for term master branch.
 - 10/5/2019 Michelle comitted and added definition for term status.
 - 10/5/2019 Michelle comitted and added definition for term remote add/remove/show.
 - 10/5/2019 Michelle comitted and added definition for term pull.
