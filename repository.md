@@ -290,7 +290,7 @@ git pull origin master
 __________________________________________________________________________________________________________________________________
 <a name="remote">  
   
-# Remote Add / Remove / Show
+# Remote Add/Remove/Show
 
 
 ### Add a Remote.
@@ -312,40 +312,34 @@ $ git remote -v
 
 </br>
 </br>
-### Remove a remote.  
+
+### Remove a remote.
+
 Use the git remote rm command to remove a remote URL from your repository. Note: git remote rm does not delete the remote repository from the server. It simply removes the remote and its references from your local repository.
 Example: 
 $ git remote -v  
-#View current remotes
-> origin  https://github.com/OWNER/REPOSITORY.git (fetch)
-> origin  https://github.com/OWNER/REPOSITORY.git (push)
-> destination  https://github.com/FORKER/REPOSITORY.git (fetch)
-> destination  https://github.com/FORKER/REPOSITORY.git (push)
+#View current remotes </br>
+\> origin  https://github.com/OWNER/REPOSITORY.git (fetch) </br>
+\> origin  https://github.com/OWNER/REPOSITORY.git (push)</br>
+\> destination  https://github.com/FORKER/REPOSITORY.git (fetch)</br>
+\> destination  https://github.com/FORKER/REPOSITORY.git (push)</br>
 
-$ git remote rm destination
-#Remove remote
-$ git remote -v
-# Verify it's gone
-> origin  https://github.com/OWNER/REPOSITORY.git (fetch)
-> origin  https://github.com/OWNER/REPOSITORY.git (push)
+$ git remote rm destination</br>
+\# Remove remote </br>
+$ git remote -v </br>
+#Verify it's gone</br>
+\> origin  https://github.com/OWNER/REPOSITORY.git (fetch)</br>
+\> origin  https://github.com/OWNER/REPOSITORY.git (push)</br>
 
 The destination remotes have been removed.
-
 </br>
 </br>
-
-
 ### Show
-Git-show - Shows one or more objects (blobs, trees, tags and commits).
-
-For commits it shows the log message and textual diff. It also presents the merge commit in a special format as produced by git diff-tree --cc.
-
-For tags, it shows the tag message and the referenced objects
-.
-For trees, it shows the names (equivalent to git ls-tree with --name-only).
-
-For plain blobs, it shows the plain contents.
-
+Git-show - Shows one or more objects (blobs, trees, tags and commits).</br>
+For commits it shows the log message and textual diff. It also presents the merge commit in a special format as produced by git diff-tree.</br>
+For tags, it shows the tag message and the referenced objects.</br>
+For trees, it shows the names (equivalent to git ls-tree with --name-only).</br>
+For plain blobs, it shows the plain contents.</br>
 The command takes options applicable to the git diff-tree command to control how the changes the commit introduces are shown.
 
 <a href="#top">Return to  Git Commands and Terminology</a>
