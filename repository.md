@@ -15,7 +15,7 @@ Readme Page [Click Here](/README.md)
 *	 <a href="#checkout">Checkout</a> 
 *	 <a href="#push">Push</a> 
 *	<a href="#pull">Pull </a> 
-*	 <a href="#clone">Remote Add / Remove / Show </a> 
+*	 <a href="#remote">Remote Add / Remove / Show </a> 
 *	 <a href="#clone">Status</a> 
 *	<a href="#clone">Master Branch </a> 
 
@@ -288,6 +288,73 @@ git pull origin master
 <br>
 <br>
 __________________________________________________________________________________________________________________________________
+<a name="remote">  
+  
+# Remote Add / Remove / Show
+
+
+### Add a Remote.
+To add a new remote, use the git remote add command on the terminal, in the directory your repository is stored at.
+
+The git remote add command takes two arguments:
+
+A remote name, for example, origin
+A remote URL, for example, https://github.com/user/repo.git
+For example:
+
+$ git remote add origin https://github.com/user/repo.git
+#Set a new remote
+
+$ git remote -v
+#Verify new remote
+> origin  https://github.com/user/repo.git (fetch)
+> origin  https://github.com/user/repo.git (push)
+
+</br>
+</br>
+### Remove a remote.  
+Use the git remote rm command to remove a remote URL from your repository. Note: git remote rm does not delete the remote repository from the server. It simply removes the remote and its references from your local repository.
+Example: 
+$ git remote -v  
+#View current remotes
+> origin  https://github.com/OWNER/REPOSITORY.git (fetch)
+> origin  https://github.com/OWNER/REPOSITORY.git (push)
+> destination  https://github.com/FORKER/REPOSITORY.git (fetch)
+> destination  https://github.com/FORKER/REPOSITORY.git (push)
+
+$ git remote rm destination
+#Remove remote
+$ git remote -v
+# Verify it's gone
+> origin  https://github.com/OWNER/REPOSITORY.git (fetch)
+> origin  https://github.com/OWNER/REPOSITORY.git (push)
+
+The destination remotes have been removed.
+
+</br>
+</br>
+
+
+### Show
+Git-show - Shows one or more objects (blobs, trees, tags and commits).
+
+For commits it shows the log message and textual diff. It also presents the merge commit in a special format as produced by git diff-tree --cc.
+
+For tags, it shows the tag message and the referenced objects
+.
+For trees, it shows the names (equivalent to git ls-tree with --name-only).
+
+For plain blobs, it shows the plain contents.
+
+The command takes options applicable to the git diff-tree command to control how the changes the commit introduces are shown.
+
+<a href="#top">Return to  Git Commands and Terminology</a>
+<br>
+<br>
+__________________________________________________________________________________________________________________________________
+
+
+
 
 Readme Page [Click Here](/README.md)
 
