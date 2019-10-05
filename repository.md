@@ -63,15 +63,13 @@ Typically, the "original" repository is located on a remote server, often from a
  <br>
 Thie following commands will download the project to a folder named after the Git repository ("Mini_Project_1" in this case)
 
-### Repository Owner USERNAME: Web_Dev_IS601   <br>
-### GITHUB REPOSITORY PROJECT: Mini_Project_1 <br>
-### cd folder/to/clone-into/        ---> Change to the folder on your local directory that will contain the cloned repository <br>
+#### Repository Owner USERNAME: Web_Dev_IS601   <br>
+#### GITHUB REPOSITORY PROJECT: Mini_Project_1 <br>
+#### cd folder/to/clone-into/        ---> Change to the folder on your local directory that will contain the cloned repository <br>
 Clone Command**: <br>
-### <b>git clone </b>[https://github.com/Web_Dev_IS601/Mini_Project_1.git]  <br><br>
-**SSH/HTTPS URL FORMAT :   git@name-of-git-host:username/project-name (SSH version) or [https://name-of-git-host/username/project-name] (HTTPS version).
+#### <b>git clone </b>[https://github.com/Web_Dev_IS601/Mini_Project_1.git]  <br><br>
+/**SSH/HTTPS URL FORMAT :   git@name-of-git-host:username/project-name (SSH version) or [https://name-of-git-host/username/project-name] (HTTPS version).
 
-
-</a>
 <a href="#top">Return to  Git Commands and Terminology</a>
 
 <br>
@@ -365,8 +363,8 @@ Sample output of Git status:</br>
 #hello.pyc</br>
 
 <a href="#top">Return to  Git Commands and Terminology</a>
-<br>
-<br>
+</br>
+</br>
 __________________________________________________________________________________________________________________________________
 <a name="masterbranch">  
   
@@ -378,7 +376,10 @@ Git will automatically create a master branch by default. Every next commit you 
 
 ![](image/masterbranchlast_small.png)
 </br>
-In the above image we have a master branch and a pointer pointing at the last commit.
+In the above image we have a master branch and a pointer pointing at the last commit.</br>
+<a href="#top">Return to  Git Commands and Terminology</a>
+</br>
+</br>
 __________________________________________________________________________________________________________________________________
 Return to Readme Page [Click Here](/README.md)
 
