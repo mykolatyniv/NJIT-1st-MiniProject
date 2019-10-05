@@ -13,7 +13,7 @@ Readme Page [Click Here](/README.md)
 *	 <a href="#commit">Commit</a> 
 *	 <a href="#merge">Merge</a> 
 *	 <a href="#checkout">Checkout</a> 
-*	 <a href="#clone">Push</a> 
+*	 <a href="#push">Push</a> 
 *	<a href="#clone">Pull </a> 
 *	 <a href="#clone">Remote Add / Remove / Show </a> 
 *	 <a href="#clone">Status</a> 
@@ -226,6 +226,33 @@ You can use the git checkout command to undo changes you’ve made to a file in 
 <a href="#top">Return to  Git Commands and Terminology</a>
 <br>
 <br>
+
+__________________________________________________________________________________________________________________________________
+
+<a name="push">  
+  
+# Push
+
+The git push command allows you to send (or push) the commits from your local branch in your local Git repository to the remote repository.
+To be able to push to your remote repository, you must ensure that all your changes to the local repository are committed.
+
+![](image/threeway_merge.png)
+
+Push command's syntax is as follows: git push {repo name} {branch name}
+  
+#### Example: Push to a Specific Remote Repository and Branch
+
+Note: In order to push code, you must first clone a repository to your local machine.
+
+Type commands:
+#Once a repo is cloned, you'll be working inside of the default branch (the default is `master`)
+ git clone https://github.com/<git-user>/<repo-name> && cd <repo-name>
+#make changes and stage your files (repeat the `git add` command for each file, or use `git add .` to stage all)
+git add <filename>
+#now commit your code
+git commit -m "added some changes to my repo!"
+#push changes in `master` branch to github
+git push origin master
 
 __________________________________________________________________________________________________________________________________
 
