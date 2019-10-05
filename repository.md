@@ -16,7 +16,7 @@ Readme Page [Click Here](/README.md)
 *	 <a href="#push">Push</a> 
 *	<a href="#pull">Pull </a> 
 *	 <a href="#remote">Remote Add / Remove / Show </a> 
-*	 <a href="#clone">Status</a> 
+*	 <a href="#status">Status</a> 
 *	<a href="#clone">Master Branch </a> 
 
 ___________________________________________________________________________________________________________________________________
@@ -291,64 +291,82 @@ ________________________________________________________________________________
 <a name="remote">  
   
 # Remote Add/Remove/Show
-
-
 ### Add a Remote.
 To add a new remote, use the git remote add command on the terminal, in the directory your repository is stored at.
 
-The git remote add command takes two arguments:
-
-A remote name, for example, origin
-A remote URL, for example, https://github.com/user/repo.git
-For example:
-
-$ git remote add origin https://github.com/user/repo.git
-#Set a new remote
-
-$ git remote -v
-#Verify new remote
-> origin  https://github.com/user/repo.git (fetch)
-> origin  https://github.com/user/repo.git (push)
-
+The git remote add command takes two arguments:</br>
+A remote name, for example, origin</br>
+A remote URL, for example, https://github.com/user/repo.git</br>
+#### Example: 
+\$ git remote add origin https://github.com/user/repo.git</br>
+\#Set a new remote</br>
+\$ git remote -v</br>
+\#Verify new remote</br>
+\> origin  https://github.com/user/repo.git (fetch)</br>
+\> origin  https://github.com/user/repo.git (push)</br>
 </br>
 </br>
-
 ### Remove a remote.
-
 Use the git remote rm command to remove a remote URL from your repository. Note: git remote rm does not delete the remote repository from the server. It simply removes the remote and its references from your local repository.
-Example: 
-$ git remote -v  
-#View current remotes </br>
+#### Example: 
+\$ git remote -v  
+\#View current remotes </br>
 \> origin  https://github.com/OWNER/REPOSITORY.git (fetch) </br>
 \> origin  https://github.com/OWNER/REPOSITORY.git (push)</br>
 \> destination  https://github.com/FORKER/REPOSITORY.git (fetch)</br>
 \> destination  https://github.com/FORKER/REPOSITORY.git (push)</br>
 
-$ git remote rm destination</br>
+\$ git remote rm destination</br>
 \# Remove remote </br>
-$ git remote -v </br>
-#Verify it's gone</br>
+\$ git remote -v </br>
+\#Verify it's gone</br>
 \> origin  https://github.com/OWNER/REPOSITORY.git (fetch)</br>
 \> origin  https://github.com/OWNER/REPOSITORY.git (push)</br>
 
 The destination remotes have been removed.
 </br>
-</br>
-### Show
+### Show a remote.
 Git-show - Shows one or more objects (blobs, trees, tags and commits).</br>
 For commits it shows the log message and textual diff. It also presents the merge commit in a special format as produced by git diff-tree.</br>
 For tags, it shows the tag message and the referenced objects.</br>
 For trees, it shows the names (equivalent to git ls-tree with --name-only).</br>
 For plain blobs, it shows the plain contents.</br>
 The command takes options applicable to the git diff-tree command to control how the changes the commit introduces are shown.
+Git show syntax: git show \<options> \<object></br>
 
 <a href="#top">Return to  Git Commands and Terminology</a>
 <br>
 <br>
 __________________________________________________________________________________________________________________________________
+<a name="status">  
+  
+# Status
+The git status command displays the state of the working directory and the staging area. It lets you see which changes have been staged, which haven’t, and which files aren’t being tracked by Git. Status output does not show you any information regarding the committed project history.
 
+#### Example: 
+\$git status
+Lists which files are staged, unstaged, and untracked.
+Sample output of Git status:
+\# On branch master
+\# Changes to be committed:
+\# (use "git reset HEAD <file>..." to unstage)
+\#
+\#modified: hello.py
+\#
+\# Changes not staged for commit:
+\# (use "git add <file>..." to update what will be committed)
+# (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#modified: main.py
+#
+# Untracked files:
+# (use "git add <file>..." to include in what will be committed)
+#
+#hello.pyc
 
-
+<a href="#top">Return to  Git Commands and Terminology</a>
+<br>
+<br>
 
 Readme Page [Click Here](/README.md)
 
