@@ -236,7 +236,7 @@ ________________________________________________________________________________
 The git push command allows you to send (or push) the commits from your local branch in your local Git repository to the remote repository.
 To be able to push to your remote repository, you must ensure that all your changes to the local repository are committed.
 
-![](image/threeway_merge.png)
+![](image/push.png)
 
 Push command's syntax is as follows: git push {repo name} {branch name}
   
