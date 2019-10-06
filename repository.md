@@ -33,7 +33,7 @@ project, building a history over time.
 
 ![](image/git_repos_image_source.png)
 
-
+#### Example:
 To start a new git repository using the command line:
 1.	Create a directory to contain the project.
 2.	Go into the new directory.
