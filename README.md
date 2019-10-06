@@ -12,6 +12,7 @@ NJIT-1st-MiniProject
 - **Workflow Part - Michelle Boykins:** [link](/repository.md) 
 
 **Changelog**
+- 10/6/2019 Michelle updated readme changelog.
 - 10/5/2019 Michelle updated readme changelog.
 - 10/5/2019 Michelle uploaded images fastforward_merge.png, fork.png, fork_github.png,threeway_merge.png to image folder.
 - 10/5/2019 Michelle uploaded images after_pushing2.png, before_pushing2.png, commit.png,fastforward_merge.png to image folder.
@@ -28,6 +29,7 @@ NJIT-1st-MiniProject
 - 10/4/2019 Michelle comitted and added definition for term commit.
 - 10/4/2019 Michelle comitted and added definition for term branch.
 - 10/4/2019 Michelle comitted and added definition for term fork.
+- 10/3/2019 Michelle comitted and added explanation for gitFlow Workflow.
 - 10/3/2019 Michelle uploaded images clone_image.png, gitflow.png, git_repos_image_source.png to image folder.
 - 10/3/2019 Michelle comitted and added definitions for gitflow and Git commands and terminology.
 - 9/26/2019 Mykola Lupak created new repository
