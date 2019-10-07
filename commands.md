@@ -1,10 +1,6 @@
 ﻿# Git Commands Part <a name="top">
 
-
-
 Return to Readme Page [Click Here](/README.md)
-
-
 
 
 *	 <a href="#cd">cd </a> 
@@ -24,17 +20,22 @@ ________________________________________________________________________________
 <a name="cd">
   
 ## CD
- - change directory, to change this current working directory.
+ - change directory, Navigate to the Home Directory (Default folder for the current user). 
 
 ## Example: 
 - git cd 
-- [ ] to move into subfolders, you would call something like this.
-- git cd name-of-subfolder/sub-subfolder/
+- [x] Navigate to a specific folder in the file system: 
+- cd /c/SomeFolder/SomeOtherFolder/
+- [x] Navigate to a specific folder in the file system (if there are spaces in the directory path): 
+- cd “/c/Some Folder/Some Other Folder/”
+- [x] Go back to the previous Location: 
+- cd -
+- [x] Move Up One Directory Level: 
+-  cd ..
 
-Source: [link to source site](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/command-line-101)
 </a>
 
-<a href="#top">Git Commands Part</a>
+<a href="#top">Return to Git Commands</a>
 <br>
 <br>
 ___________________________________________________________________________________________________________________________________
@@ -46,12 +47,18 @@ ________________________________________________________________________________
 
 ### Example:
 - mkdir new-folder
-
-Source: [link to source site](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/command-line-101)
+- [x] Create a folder in the current directory (with spaces in the folder name): 
+- mkdir “New Folder Name”
+- [x] Create a folder at the specific directory path: 
+- mkdir /c/ExistingParentFolder/NewFolderName
+- [x]  Create a folder at the specific directory path, and create parent directories as needed:
+- mkdir -p /c/NewParentFolder/NewFolderName
+- [x] Create a folder at the specific directory path, create parent directories as needed, and print a description of what was done in the console window: 
+- mkdir -p --verbose /c/NewParentFolder/NewFolderName
 
 </a>
 
-<a href="#top">Git Commands Part</a>
+<a href="#top">Return to Git Commands</a>
 <br>
 <br>
 ___________________________________________________________________________________________________________________________________
@@ -65,11 +72,12 @@ ________________________________________________________________________________
 
 ### Example:
 - cp [OPTION] Source Directory
+- [x] One or more arguments : If the command has one or more arguments, specifying file names and following those arguments, an argument specifying directory name then this command copies each source file to the destination directory with the same name, created if not existed but if already existed then it will be overwritten
+- cp Src_file1 Src_file2 Src_file3 Dest_directory
 
-Source: [link to source site](https://www.geeksforgeeks.org/cp-command-linux-examples/)
 </a>
 
-<a href="#top">Git Commands Part</a>
+<a href="#top">Return to Git Commands</a>
 <br>
 <br>
 ___________________________________________________________________________________________________________________________________
@@ -83,11 +91,11 @@ ________________________________________________________________________________
 
 ### Example:
 - pwd
+- /users/mykola, if not ran command cd ~
 
-Source: [link to source site](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/command-line-101)
 </a>
 
-<a href="#top">Git Commands Part</a>
+<a href="#top">Return toGit Commands</a>
 <br>
 <br>
 ___________________________________________________________________________________________________________________________________
@@ -97,17 +105,18 @@ ________________________________________________________________________________
   
 ## MV 
 
-- moving a file
+- mv stands for move. change an existing file path and stage. It has two distinct functions:
+- (i) It rename a file or folder.
+- (ii) It moves group of files to different directory.
 
 ### Example:
-- mv path/to/file.ext different/path/file.ext
-- [ ] The "mv" command can also be used to rename a file
--  mv old-filename.ext new-filename.ext
+- git mv [existing-path] [new-path]
+- [x] The "mv" command can also be used to rename a file:
+-  git mv old-filename.ext new-filename.ext
 
-Source: [link to source site](hhttps://www.git-tower.com/learn/git/ebook/en/command-line/appendix/command-line-101)
 </a>
 
-<a href="#top">Git Commands Part</a>
+<a href="#top">Return to Git Commands</a>
 <br>
 <br>
 ___________________________________________________________________________________________________________________________________
@@ -117,18 +126,22 @@ ________________________________________________________________________________
   
 ## RM 
 
-- deletes the file from your working directory and stages the deletion
+- delete the file from project and stage the removal for commit. Don't use the UNIX command rm file-name. Must perform a "git commit" to update the repository.
+- -I (or --interactive) = Prompt before removal
+- -v (or --verbose) = Explain what is being done
 
 ### Example:
 - git rm image.md
-- [ ] When trying to delete a folder, however, please note that you'll have to add the "-r" flag (which stand for "recursive")
+- [x] When trying to delete a folder, however, please note that you'll have to add the "-r" flag (which stand for "recursive"):
 - rm -r path/to/folder
+- [x] Prompt for confirmation before remove the specified file from the current directory (no spaces):
+- rm -i DeleteFileName
+- [x] Removes the specified file and reports what was done in the console window: 
+- rm -v DeleteFileName
 
-Source: [link to source site](https://dzone.com/articles/top-20-git-commands-with-examples)
-Source: [link to source site](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/command-line-101)
 </a>
 
-<a href="#top">Git Commands Part</a>
+<a href="#top">Return to Git Commands</a>
 <br>
 <br>
 ___________________________________________________________________________________________________________________________________
@@ -138,15 +151,24 @@ ________________________________________________________________________________
   
 ## History 
 
-- checking git commit history
+- checking your git bash previsuly command history. 
 
 ### Example:
-- history, git log, gitk - visualize and browse history
+- history
+**Image**
+History Image.
 
-Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
+![NJIT](image/history.PNG)
+
+- git log
+**log**
+Log Image.
+
+![NJIT](image/log.PNG)
+
 </a>
 
-<a href="#top">Git Commands Part</a>
+<a href="#top">Return to Git Commands</a>
 <br>
 <br>
 ___________________________________________________________________________________________________________________________________
@@ -161,10 +183,9 @@ ________________________________________________________________________________
 ### Example:
 - check git config, home directory in windows: C:\Documents and Settings\All Users\Application Data\Git\config
 
-Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
 </a>
 
-<a href="#top">Git Commands Part</a>
+<a href="#top">Return to Git Commands</a>
 <br>
 <br>
 ___________________________________________________________________________________________________________________________________
@@ -179,11 +200,9 @@ ________________________________________________________________________________
 ### Example:
 - cd /home/YOURNAME/
 
-
-Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
 </a>
 
-<a href="#top">Git Commands Part</a>
+<a href="#top">Return to Git Commands</a>
 <br>
 <br>
 ___________________________________________________________________________________________________________________________________
@@ -199,10 +218,9 @@ ________________________________________________________________________________
 - [ ] Or you make use of the TAB key (try this yourself!)
 - cd ~/pr[TAB]ojects/ac[TAB]medesign/doc[TAB]umentation/
 
-Source: [link to source site](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/command-line-101)
 </a>
 
-<a href="#top">Git Commands Part</a>
+<a href="#top">Return to Git Commands</a>
 <br>
 <br>
 ___________________________________________________________________________________________________________________________________
@@ -216,10 +234,9 @@ ________________________________________________________________________________
 ### Example:
 - Arrow Keys
 
-Source: [link to source site](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/command-line-101)
 </a>
 
-<a href="#top">Git Commands Part</a>
+<a href="#top">Return to Git Commands</a>
 <br>
 <br>
 ___________________________________________________________________________________________________________________________________
@@ -233,24 +250,12 @@ ________________________________________________________________________________
 ### Example:
 - vi commands.md > i > type your text> press esc > type wq. Thank git add commands.md> git commit -m "test" and final step: git push
 
-
-
-
-
-Source: [link to source site](https://stackoverflow.com/questions/31128783/how-to-find-the-install-path-of-git-in-mac-or-linux)
 </a>
 
-<a href="#top">Git Commands Part</a>
+<a href="#top">Return to Git Commands</a>
 <br>
 <br>
 ___________________________________________________________________________________________________________________________________
-
-
-
-
-
-
-
 
 Readme Page [Click Here](/README.md)
 
