@@ -1,5 +1,6 @@
-﻿# gitFlow Workflow
+# gitFlow Workflow
 
+[Return to Readme ](/README.md)
 
 
 GitFlow is a branching model for Git, created by Vincent Driessen. “One of the great things about GitFlow is that it makes parallel development very easy, by isolating new development from finished work. New development (such as features and non-emergency bug fixes) is done in feature branches, and is only merged back into main body of code when the developer(s) is happy that the code is ready for release.”<sup>1</sup>
