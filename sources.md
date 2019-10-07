@@ -1,4 +1,4 @@
-# SOURCES
+﻿# SOURCES
 Return to Readme [Click Here](/README.md)
 
 
@@ -9,6 +9,10 @@ https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
 
 * <b>A successful Git branching model:</b> 
 https://nvie.com/posts/a-successful-git-branching-model/
+
+* <b>GIT Cheat Sheet</b> https://education.github.com/git-cheat-sheet-education.pdf
+
+* <b>Code Project</b> https://www.codeproject.com/Articles/457305/Basic-Git-Command-Line-Reference-for-Windows-Users
 
 * <b>Centralized vs Distributed Version Control Systems - What's Best for Notes Development?</b> 
 https://www.teamstudio.com/blog/distributed-vs-centralized-version-control-systems-for-lotus-notes
