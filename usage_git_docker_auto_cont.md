@@ -1,5 +1,7 @@
 ![](header.png)
 
+Return to Readme [Click Here](/README.md)
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Effective and efficient automated software testing is crucial to helping organizations deliver better software, faster. Manual testing in comparison, where a human being is responsible for testing the functionality of the software in the way a user would, requires more time in exploratory tests. Although manual testing “allows a human mind to draw insights from a test that might otherwise be missed by an automated testing program”, automated testing is well-suited for large projects; projects that require testing the same areas over and over; and projects that have already been through an initial manual testing process. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Throughout the testing and development phase developers integrate code into a shared repository frequently, preferably several times a day. Each integration can then be verified by an automated build and automated tests. While automated testing is not strictly part of continuous integration it is typically implied.
@@ -22,6 +24,8 @@
 * https://techbeacon.com/devops/4-myths-about-containers-continuous-delivery-it-doesnt-get-easier</br>
 * https://www.infoworld.com/article/3204171/what-is-docker-the-spark-for-the-container-revolution.html</br>
 </br>
+
+Return to Readme [Click Here](/README.md)
 
 ![](explantion_header.png)
 
