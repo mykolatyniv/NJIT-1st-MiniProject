@@ -10,7 +10,7 @@ Each group must include an explanation of how the usage of Git, Docker, automate
 
 
 #### Index:
-* [Git, Docker, Automated Testing and Continuous Integration: Improve the Productivity and Competitivenes of Companies](/automated.md)
+* [Git, Docker, Automated Testing and Continuous Integration: Improve the Productivity and Competitivenes of Companies](/usage_git_docker_auto_cont.md)
 * [Vi and Basic Commands to Manage a File System](/commands.md)
 * [The gitFlow Workflow](/gitflow_1.md)
 * [Git Commands and Terminology](/repository.md)
