@@ -39,7 +39,7 @@ Each group must include an explanation of how the usage of Git, Docker, automate
 <a name="changelog">
  
 #### Change Log:
-- 10/7/2019 Mykola Lupak deleted old readme fle
+- 10/7/2019 Mykola Lupak deleted old readme file
 - 10/7/2019 Michelle comitted and added usage_git_docker_auto_cont.md file. 
 - 10/7/2019 Michelle comitted and added sources file. 
 - 10/6/2019 Michelle updated readme changelog.
