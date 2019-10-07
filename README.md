@@ -1,17 +1,46 @@
 
-NJIT-1st-MiniProject
+### New Jersey Institute of Technology
+### IS601 - 851
+### NJIT-1st-MiniProject
+### Project Members: Michelle Boykins and Mykola Lupak
+#### Objective:
+In this project, students were required to work in groups in 2 or 3. A single repository was to be developed between each group. One person was elected to merge  pull requests as the team leader. It is required to have at least 10 substantive commits per group member that are marked "feature". Any fixes to "features" must be marked as fixes and do not count.  Commits for creating files or renaming files or other non-feature work should be named "task".  
 
-**New Jersey Institute of Technology**
-**IS601 - 851**
+Each group must include an explanation of how the usage of Git, Docker, automated testing, and continuous integration can improve the productivity and competitiveness of a company.  Each project* must include the following sections, which are listed in the index below.</br> (*For a project group of two members)
 
-**Names: Michelle Boykins and Mykola Lupak**
 
-**Pages Index**
+#### Index:
+* [Git, Docker, Automated Testing and Continuous Integration: Improve the Productivity and Competitivenes of Companies](/automated.md)
+* [Vi and Basic Commands to Manage a File System](/commands.md)
+* [The gitFlow Workflow](/gitflow_1.md)
+* [Git Commands and Terminology](/repository.md)
+* [Sources, Tutorials and Additional Readings](/sources.md)
+* <a href="#changelog">Changelog</a> 
+* <a href="#contributions">Contributions</a> 
+ 
+ 
+ 
+ 
+ 
+ <a name="contributions">
+ 
+#### Contributions:
+- **Basic commands to manage a file system - Mykola Lupak**
+- **The usage of Vi to create and edit files on Linux  - Mykola Lupak**
+- **Readme File - Mykola Lupak**
+- **Sources, Tutorials and Additional Readings - Mykola Lupak & Michelle Boykins**
+- **The gitFlow Workflow  - Michelle Boykins**
+- **Git Commands - Michelle Boykins**
+- **Git, Docker, Automated Testing and Continuous Integration: Improve the Productivity and Competitivenes of Companies- Michelle Boykins**
 
-- **Commands Part - Mykola Lupak** [link](/commands.md)
-- **Workflow Part - Michelle Boykins:** [link](/repository.md) 
 
-**Changelog**
+
+
+<a name="changelog">
+ 
+#### Change Log:
+- 10/7/2019 Michelle comitted and added sources file. 
+- 10/7/2019 Michelle comitted and added sources file. 
 - 10/6/2019 Michelle updated readme changelog.
 - 10/5/2019 Michelle updated readme changelog.
 - 10/5/2019 Michelle uploaded images fastforward_merge.png, fork.png, fork_github.png,threeway_merge.png to image folder.
@@ -40,25 +69,6 @@ NJIT-1st-MiniProject
 - 9/26/2019 Mykola Lupak created new repository
 
 
-**Formating and style:**
-
-- [x] Use separate pages as necessary, don't mix the sections up, use one or more pages.
-
-- [x] The Readme file should show your group member's name
-
-- [x] The Readme file should be an index to your other pages and link to them.
-
-- [x] Use markdown (Links to an external site.) to style the pages nicely with headings, bullet points, multiple pages linked together. and pictures.
-
-- [x] Put a "Changelog" on your readme files that you list all of the changes to the document and who did them.
-
-- [x]  Put a section of sources with links to tutorials and feel free to link to other documents in your work.
-
-**Markdown format sample**
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
 
 **Image**
 Mini Project Image.
