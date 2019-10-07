@@ -155,15 +155,9 @@ ________________________________________________________________________________
 
 ### Example:
 - history
-**Image**
-History Image.
-
 ![NJIT](image/history.PNG)
 
 - git log
-**log**
-Log Image.
-
 ![NJIT](image/log.PNG)
 
 </a>
