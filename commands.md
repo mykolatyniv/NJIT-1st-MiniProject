@@ -172,10 +172,12 @@ ________________________________________________________________________________
   
 ## Home directory and ~
 
-- is home directory
+- ~ represents your home directory. Changing the HOME environment variable will change where it goes.
 
 ### Example:
-- check git config, home directory in windows: C:\Documents and Settings\All Users\Application Data\Git\config
+- [x] Change user's home directory, which is set by the $HOME environment variable. (HOME=/c/user/custom/home)
+- cd ~ 
+![NJIT](image/home.PNG)
 
 </a>
 
