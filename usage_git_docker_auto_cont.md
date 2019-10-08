@@ -16,9 +16,11 @@ Return to Readme [Click Here](/README.md)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Docker is a software platform for building applications based on containers.  Containers also offer a way to speed application delivery and increase application portability, by allowing developers to isolate code to a single self-contained function. Containerization of software, allows improvements in the continuous delivery process.  Continuous delivery, an extension of continuous integration, happens when your software is deployable at any time, when you can easily push any version of your software on demand to any environment, and when you or anybody else in the development team can get immediate, automated feedback on the impact of changes to the software. The biggest improvements are in speed and in the level of abstraction. Thus, reducing the time of the overall development process.  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Git, Docker, automated testing and continuous integration are tools and methods that can improve the productivity and competitiveness of a company by offering processes that increase the speed of development while ensuring the quality of the code, thus making a company more productive and competitive.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Git, Docker, automated testing and continuous integration are tools and methods that can improve the productivity and competitiveness of a company by offering processes that increase the speed of development while ensuring the quality of the code, thus making a company more productive and competitive.
+
+---
 <sup>1</sup>https://smartbear.com/learn/automated-testing/what-is-automated-testing/
-</br></br>
+</br>
 #### Sources and Additional Readings: </br>
 * https://smartbear.com/learn/automated-testing/what-is-automated-testing/</br>
 * https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment</br>
