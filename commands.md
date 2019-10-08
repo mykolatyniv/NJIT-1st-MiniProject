@@ -211,7 +211,7 @@ ________________________________________________________________________________
 
 ### Example:
   - cd ~/projects/acmedesign/documentation 
-# Or you make use of the TAB kek
+### Or you make use of the TAB kek
   - cd ~/pr[TAB]ojects/ac[TAB]medesign/doc[TAB]umentation/
 
 </a>
