@@ -24,13 +24,13 @@ ________________________________________________________________________________
 
 ## Example: 
 - git cd 
-- [x] Navigate to a specific folder in the file system: 
+  - Navigate to a specific folder in the file system: 
 - cd /c/SomeFolder/SomeOtherFolder/
-- [x] Navigate to a specific folder in the file system (if there are spaces in the directory path): 
+  - Navigate to a specific folder in the file system (if there are spaces in the directory path): 
 - cd “/c/Some Folder/Some Other Folder/”
-- [x] Go back to the previous Location: 
+  -  Go back to the previous Location: 
 - cd -
-- [x] Move Up One Directory Level: 
+  - Move Up One Directory Level: 
 -  cd ..
 
 </a>
@@ -47,13 +47,13 @@ ________________________________________________________________________________
 
 ### Example:
 - mkdir new-folder
-- [x] Create a folder in the current directory (with spaces in the folder name): 
+  - Create a folder in the current directory (with spaces in the folder name): 
 - mkdir “New Folder Name”
-- [x] Create a folder at the specific directory path: 
+  - Create a folder at the specific directory path: 
 - mkdir /c/ExistingParentFolder/NewFolderName
-- [x]  Create a folder at the specific directory path, and create parent directories as needed:
+  - Create a folder at the specific directory path, and create parent directories as needed:
 - mkdir -p /c/NewParentFolder/NewFolderName
-- [x] Create a folder at the specific directory path, create parent directories as needed, and print a description of what was done in the console window: 
+  - Create a folder at the specific directory path, create parent directories as needed, and print a description of what was done in the console window: 
 - mkdir -p --verbose /c/NewParentFolder/NewFolderName
 
 </a>
@@ -72,7 +72,7 @@ ________________________________________________________________________________
 
 ### Example:
 - cp [OPTION] Source Directory
-- [x] One or more arguments : If the command has one or more arguments, specifying file names and following those arguments, an argument specifying directory name then this command copies each source file to the destination directory with the same name, created if not existed but if already existed then it will be overwritten
+  - One or more arguments : If the command has one or more arguments, specifying file names and following those arguments, an argument specifying directory name then this command copies each source file to the destination directory with the same name, created if not existed but if already existed then it will be overwritten
 - cp Src_file1 Src_file2 Src_file3 Dest_directory
 
 </a>
@@ -111,7 +111,7 @@ ________________________________________________________________________________
 
 ### Example:
 - git mv [existing-path] [new-path]
-- [x] The "mv" command can also be used to rename a file:
+  - The "mv" command can also be used to rename a file:
 -  git mv old-filename.ext new-filename.ext
 
 </a>
@@ -132,11 +132,11 @@ ________________________________________________________________________________
 
 ### Example:
 - git rm image.md
-- [x] When trying to delete a folder, however, please note that you'll have to add the "-r" flag (which stand for "recursive"):
+  - When trying to delete a folder, however, please note that you'll have to add the "-r" flag (which stand for "recursive"):
 - rm -r path/to/folder
-- [x] Prompt for confirmation before remove the specified file from the current directory (no spaces):
+  - Prompt for confirmation before remove the specified file from the current directory (no spaces):
 - rm -i DeleteFileName
-- [x] Removes the specified file and reports what was done in the console window: 
+  - Removes the specified file and reports what was done in the console window: 
 - rm -v DeleteFileName
 
 </a>
@@ -175,7 +175,7 @@ ________________________________________________________________________________
 - ~ represents your home directory. Changing the HOME environment variable will change where it goes.
 
 ### Example:
-- [x] Change user's home directory, which is set by the $HOME environment variable. (HOME=/c/user/custom/home)
+  - Change user's home directory, which is set by the $HOME environment variable. (HOME=/c/user/custom/home)
 - cd ~ 
 - ![NJIT](image/home.PNG)
 
@@ -210,8 +210,8 @@ ________________________________________________________________________________
 - It autocompletes what you've written, which reduces typos very efficiently. For example, when you want to switch to a different directory, you can either type every component of the path yourself
 
 ### Example:
-- cd ~/projects/acmedesign/documentation
-- [ ] Or you make use of the TAB key (try this yourself!)
+- cd ~/projects/acmedesign/documentation 
+  - Or you make use of the TAB key (try this yourself!)
 - cd ~/pr[TAB]ojects/ac[TAB]medesign/doc[TAB]umentation/
 
 </a>
@@ -228,7 +228,8 @@ ________________________________________________________________________________
 - ARROW UP key, you can step through the last commands you called (starting with the most recently used). ARROW DOWN will move forward in history towards the most recent call
 
 ### Example:
-- Arrow Keys
+- Arrow UP
+- ARROW DOWN
 
 </a>
 
