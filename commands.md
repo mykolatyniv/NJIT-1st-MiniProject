@@ -72,7 +72,7 @@ ________________________________________________________________________________
 
 ### Example:
  - cp [OPTION] Source Directory
-### One or more arguments : If the command has one or more arguments, specifying file names and following those arguments, an argument specifying directory name then this command copies each source file to the destination directory with the same name, created if not existed but if already existed then it will be overwritten
+##### One or more arguments : If the command has one or more arguments, specifying file names and following those arguments, an argument specifying directory name then this command copies each source file to the destination directory with the same name, created if not existed but if already existed then it will be overwritten
  - cp Src_file1 Src_file2 Src_file3 Dest_directory
 
 </a>
