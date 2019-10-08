@@ -23,14 +23,14 @@ ________________________________________________________________________________
  - change directory, Navigate to the Home Directory (Default folder for the current user). 
 
 ## Example: 
-  - git cd 
-- Navigate to a specific folder in the file system: 
+- cd 
+1. Navigate to a specific folder in the file system: 
   - cd /c/SomeFolder/SomeOtherFolder/
-- Navigate to a specific folder in the file system (if there are spaces in the directory path): 
+2. Navigate to a specific folder in the file system (if there are spaces in the directory path): 
   - cd “/c/Some Folder/Some Other Folder/”
--  Go back to the previous Location: 
+3. Go back to the previous Location: 
   - cd -
-- Move Up One Directory Level: 
+4. Move Up One Directory Level: 
   -  cd ..
 
 </a>
