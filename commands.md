@@ -23,15 +23,15 @@ ________________________________________________________________________________
  - change directory, Navigate to the Home Directory (Default folder for the current user). 
 
 ## Example: 
-- cd 
+ - cd 
 1. Navigate to a specific folder in the file system: 
-  - cd /c/SomeFolder/SomeOtherFolder/
+ - cd /c/SomeFolder/SomeOtherFolder/
 2. Navigate to a specific folder in the file system (if there are spaces in the directory path): 
-  - cd “/c/Some Folder/Some Other Folder/”
+ - cd “/c/Some Folder/Some Other Folder/”
 3. Go back to the previous Location: 
-  - cd -
+ - cd -
 4. Move Up One Directory Level: 
-  -  cd ..
+ -  cd ..
 
 </a>
 
@@ -46,15 +46,15 @@ ________________________________________________________________________________
  - make new directory" command, create a new folder.
 
 ### Example:
-  - mkdir new-folder
-- Create a folder in the current directory (with spaces in the folder name): 
-  - mkdir “New Folder Name”
-- Create a folder at the specific directory path: 
-  - mkdir /c/ExistingParentFolder/NewFolderName
-- Create a folder at the specific directory path, and create parent directories as needed:
-  - mkdir -p /c/NewParentFolder/NewFolderName
-- Create a folder at the specific directory path, create parent directories as needed, and print a description of what was done in the console window: 
-  - mkdir -p --verbose /c/NewParentFolder/NewFolderName
+ - mkdir new-folder
+1. Create a folder in the current directory (with spaces in the folder name): 
+ - mkdir “New Folder Name”
+2. Create a folder at the specific directory path: 
+ - mkdir /c/ExistingParentFolder/NewFolderName
+3. Create a folder at the specific directory path, and create parent directories as needed:
+ - mkdir -p /c/NewParentFolder/NewFolderName
+4. Create a folder at the specific directory path, create parent directories as needed, and print a description of what was done in the console window: 
+ - mkdir -p --verbose /c/NewParentFolder/NewFolderName
 
 </a>
 
@@ -68,12 +68,12 @@ ________________________________________________________________________________
   
 ## CP 
 
-- cp stands for copy. This command is used to copy files or group of files or directory. It creates an exact image of a file on a disk with different file name. cp command require at least two filenames in its arguments. 
+ - cp stands for copy. This command is used to copy files or group of files or directory. It creates an exact image of a file on a disk with different file name. cp command require at least two filenames in its arguments. 
 
 ### Example:
-  - cp [OPTION] Source Directory
-- One or more arguments : If the command has one or more arguments, specifying file names and following those arguments, an argument specifying directory name then this command copies each source file to the destination directory with the same name, created if not existed but if already existed then it will be overwritten
-  - cp Src_file1 Src_file2 Src_file3 Dest_directory
+ - cp [OPTION] Source Directory
+1. One or more arguments : If the command has one or more arguments, specifying file names and following those arguments, an argument specifying directory name then this command copies each source file to the destination directory with the same name, created if not existed but if already existed then it will be overwritten
+ - cp Src_file1 Src_file2 Src_file3 Dest_directory
 
 </a>
 
@@ -90,8 +90,8 @@ ________________________________________________________________________________
 - print working directory, It will return the path to a local folder on your computer's disk
 
 ### Example:
-  - pwd
-  - /users/mykola, if not ran command cd ~
+ - pwd
+ - /users/mykola, if not ran command cd ~
 
 </a>
 
@@ -110,9 +110,9 @@ ________________________________________________________________________________
 - (ii) It moves group of files to different directory.
 
 ### Example:
-  - git mv [existing-path] [new-path]
-- The "mv" command can also be used to rename a file:
-  -  git mv old-filename.ext new-filename.ext
+ - git mv [existing-path] [new-path]
+1. The "mv" command can also be used to rename a file:
+ - git mv old-filename.ext new-filename.ext
 
 </a>
 
@@ -126,18 +126,18 @@ ________________________________________________________________________________
   
 ## RM 
 
-- delete the file from project and stage the removal for commit. Don't use the UNIX command rm file-name. Must perform a "git commit" to update the repository.
-- -I (or --interactive) = Prompt before removal
-- -v (or --verbose) = Explain what is being done
+ - delete the file from project and stage the removal for commit. Don't use the UNIX command rm file-name. Must perform a "git commit" to update the repository.
+ - -I (or --interactive) = Prompt before removal
+ - -v (or --verbose) = Explain what is being done
 
 ### Example:
-  - git rm image.md
-- When trying to delete a folder, however, please note that you'll have to add the "-r" flag (which stand for "recursive"):
-  - rm -r path/to/folder
-- Prompt for confirmation before remove the specified file from the current directory (no spaces):
-  - rm -i DeleteFileName
-- Removes the specified file and reports what was done in the console window: 
-  - rm -v DeleteFileName
+- git rm image.md
+1. When trying to delete a folder, however, please note that you'll have to add the "-r" flag (which stand for "recursive"):
+ - rm -r path/to/folder
+2. Prompt for confirmation before remove the specified file from the current directory (no spaces):
+ - rm -i DeleteFileName
+3. Removes the specified file and reports what was done in the console window: 
+ - rm -v DeleteFileName
 
 </a>
 
@@ -172,10 +172,10 @@ ________________________________________________________________________________
   
 ## Home directory and ~
 
-- ~ represents your home directory. Changing the HOME environment variable will change where it goes.
+ - ~ represents your home directory. Changing the HOME environment variable will change where it goes.
 
 ### Example:
-- Change user's home directory, which is set by the $HOME environment variable. (HOME=/c/user/custom/home)
+1. Change user's home directory, which is set by the $HOME environment variable. (HOME=/c/user/custom/home)
   - cd ~ 
 - ![NJIT](image/home.PNG)
 
@@ -211,7 +211,7 @@ ________________________________________________________________________________
 
 ### Example:
   - cd ~/projects/acmedesign/documentation 
-- Or you make use of the TAB key (try this yourself!)
+1. Or you make use of the TAB key (try this yourself!)
   - cd ~/pr[TAB]ojects/ac[TAB]medesign/doc[TAB]umentation/
 
 </a>
