@@ -6,7 +6,7 @@ Return to Readme [Click Here](/README.md)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Throughout the testing and development phase developers integrate code into a shared repository frequently, preferably several times a day. Each integration can then be verified by an automated build and automated tests. While automated testing is not strictly part of continuous integration it is typically implied.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Continuous integration is a software development strategy that increases the speed of development. It ensures the quality of the code while developers continually commit small increments of code (at least daily, or even several times a day), which is then automatically built and tested before it is merged with the shared repository.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Continuous integration is a software development strategy that increases the speed of development. It ensures the quality of the code while developers continually commit small increments of code several times a day, if necessary. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Automated testing coupled with continuous integration is a process that practically guarantees team productivity and efficiency, quicker time to market, higher quality, more stable products and an increase in customer satisfaction.
 
