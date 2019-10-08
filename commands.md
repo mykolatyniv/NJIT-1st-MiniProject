@@ -111,7 +111,7 @@ ________________________________________________________________________________
 
 ### Example:
  - git mv [existing-path] [new-path]
-### The "mv" command can also be used to rename a file:
+#### The "mv" command can also be used to rename a file:
  - git mv old-filename.ext new-filename.ext
 
 </a>
@@ -211,7 +211,7 @@ ________________________________________________________________________________
 
 ### Example:
   - cd ~/projects/acmedesign/documentation 
-### Or you make use of the TAB kek
+#### Or you make use of the TAB kek
   - cd ~/pr[TAB]ojects/ac[TAB]medesign/doc[TAB]umentation/
 
 </a>
