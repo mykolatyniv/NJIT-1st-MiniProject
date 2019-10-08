@@ -177,6 +177,7 @@ ________________________________________________________________________________
 ### Example:
 - [x] Change user's home directory, which is set by the $HOME environment variable. (HOME=/c/user/custom/home)
 - cd ~ 
+- See bellow example 
 ![NJIT](image/home.PNG)
 
 </a>
