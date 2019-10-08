@@ -242,15 +242,17 @@ Push command's syntax is as follows: git push {repo name} {branch name}
 
 Note: In order to push code, you must first clone a repository to your local machine.
 
-Type commands:
-#Once a repo is cloned, you'll be working inside of the default branch (the default is `master`)
- git clone https://github.com/<git-user>/<repo-name> && cd <repo-name>
-#make changes and stage your files (repeat the `git add` command for each file, or use `git add .` to stage all)
-git add <filename>
-#now commit your code
-git commit -m "added some changes to my repo!"
-#push changes in `master` branch to github
-git push origin master
+**Type commands below :** <br>
+#Once a repo is cloned, you'll be working inside of the default branch (the default is `master`)<br>
+Type: git clone https://github.com/<git-user>/<repo-name> <br>
+#change to the directory of your newly cloned repository.<br>
+Type: cd {repo name} <br>
+#make changes and stage your files. Repeat the `git add` command for each file, or use `git add .` to stage all<br>
+Type: git add {filename} <br>
+#now commit your code<br>
+Type: git commit -m "added some changes to my repo!" <br>
+#push changes in `master` branch to github<br>
+Type: git push origin master <br>
   
   
 <a href="#top">Return to  Git Commands and Terminology</a>
@@ -275,7 +277,7 @@ git pull fetches (git fetch) the new commits and merges (git merge) these into y
 ![](image/pull.png)
 
 
-This command’s syntax is as follows:  git pull <remote>
+Pull's syntax:  git pull {remote}
 
 #### Example: 
 --Fetch the specified remote’s copy of the current branch and immediately merge it into the local copy.
