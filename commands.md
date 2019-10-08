@@ -246,7 +246,8 @@ ________________________________________________________________________________
 
 ### Example:
 - vi commands.md > i > type your text> press esc > type wq. Thank git add commands.md> git commit -m "test" and final step: git push
-  -Useful Vi Editor Commands
+
+### Useful Vi Editor Commands
 - :w --> save to a file
 - :q --> quit out of editor file
 - :q! --> quit out of editor without saving file
