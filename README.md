@@ -6,10 +6,10 @@
 #### Objective:
 In this project, students were required to work in groups in 2 or 3. A single repository was to be developed between each group. One person was elected to merge  pull requests as the team leader. It is required to have at least 10 substantive commits per group member that are marked "feature". Any fixes to "features" must be marked as fixes and do not count.  Commits for creating files or renaming files or other non-feature work should be named "task".  
 
-Each project* must include an explanation of how the usage of Git, Docker, automated testing, and continuous integration can improve the productivity and competitiveness of a company. It must also include a section that explains commands and gives example(s) usage for Vi to create and edit files on linux and the basic commands that you need to manage the file system. The gitFlow workflow must also be explained and a section to define and give examples of how to use the Git commands and terminology in the list provided (see link to Vi and Basic Commands to Manage a File System below. 
+Each project* must include an explanation of how the usage of Git, Docker, automated testing, and continuous integration can improve the productivity and competitiveness of a company. It must also include a section that explains and gives example usage of Vi in order to create and edit files on Linux and the basic commands that you need to manage the file system. An explanation of the The gitFlow workflow must also be included and a section defining Git commands and terminology and examples of their use. 
 
 Each required section can be found by clicking on the Index links below.</br> 
-*For a project group of two members
+*Project group of two members
 
 #### Index:
 * [Git, Docker, Automated Testing and Continuous Integration: Improve the Productivity and Competitivenes of Companies](/usage_git_docker_auto_cont.md)
@@ -41,7 +41,7 @@ Each required section can be found by clicking on the Index links below.</br>
 <a name="changelog">
  
 #### Change Log:
-
+- 10/9/2019 Michelle made revisions to Readme file
 - 10/8/2019 Michelle updated content and made edits on usage_git_docker_auto_cont.md file
 - 10/8/2019 Michelle updated content and made edits on Repository.md file
 - 10/7/2019 Mykola Lupak updated commands.md file with additional information and new example images
