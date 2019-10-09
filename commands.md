@@ -2,6 +2,19 @@
 
 Return to Readme Page [Click Here](/README.md)
 
+* [cd](#cd)
+* [mkdir](#2)
+* [cp ](#cp)
+* [pwd](#pwd)
+* [mv](#mv)
+* [rm](#rm)
+* [History](#history)
+* [Home directory and ~](#home)
+* [File paths in linux](#file")
+* [Using the tab key to complete file paths](#path)
+* [Using up and down arrow for history](#arrow")
+* [vi](#vi)
+
 
 *	 <a href="#cd">cd </a> 
 *	 <a href="#2">mkdir </a>
