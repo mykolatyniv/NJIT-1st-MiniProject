@@ -134,11 +134,11 @@ Branching is used in version control and software management to maintain stabili
 $git branch issue10       -> This command creates new branch named “issue10” </br></br>
 $git check out issue10     -> This command switches to the new branch “issue10” </br>
 Abbreviated command: $git checkout -b issue10
-<br>
-<br>
+
+
+
 <a href="#top">Return to  Git Commands and Terminology</a>
-<br>
-<br>
+
 ___________________________________________________________________________________________________________________________________
 <a name="commit">  
   
