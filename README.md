@@ -39,6 +39,9 @@ Each group must include an explanation of how the usage of Git, Docker, automate
 <a name="changelog">
  
 #### Change Log:
+
+- 10/8/2019 Michelle updated content and made edits on Rusage_git_docker_auto_cont.md file
+- 10/8/2019 Michelle updated content and made edits on Repository.md file
 - 10/7/2019 Mykola Lupak updated commands.md file with additional information and new example images
 - 10/7/2019 Mykola Lupak - updated readme file and uploaded new image 1.PNG
 - 10/7/2019 Mykola Lupak deleted old readme file
