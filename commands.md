@@ -10,24 +10,11 @@ Return to Readme Page [Click Here](/README.md)
 * [rm](#rm)
 * [History](#history)
 * [Home directory and ~](#home)
-* [File paths in linux](#file")
+* [File paths in linux](#file)
 * [Using the tab key to complete file paths](#path)
-* [Using up and down arrow for history](#arrow")
+* [Using up and down arrow for history](#arrow)
 * [vi](#vi)
 
-
-*	 <a href="#cd">cd </a> 
-*	 <a href="#2">mkdir </a>
-*	 <a href="#cp">cp </a> 
-*	 <a href="#pwd">pwd</a> 
-*	 <a href="#mv">mv</a> 
-*	 <a href="#rm">rm</a> 
-*	 <a href="#history">History</a>
-*	 <a href="#home">Home directory and ~</a>
-*	 <a href="#file">File paths in linux</a>
-*	 <a href="#path">Using the tab key to complete file paths</a>
-*	 <a href="#arrow">Using up and down arrow for history</a>
-*	 <a href="#vi">vi</a>
 ___________________________________________________________________________________________________________________________________
 </br>
 <a name="cd">
