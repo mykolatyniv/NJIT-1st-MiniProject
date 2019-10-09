@@ -1,4 +1,4 @@
-﻿# Git Commands Part <a name="top">
+﻿# Basic Commands <a name="top">
 
 Return to Readme Page [Click Here](/README.md)
 
