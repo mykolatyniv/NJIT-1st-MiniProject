@@ -5,7 +5,6 @@
 ### Project Members: Michelle Boykins and Mykola Lupak
 #### Objective:
 In this project, students were required to work in groups in 2 or 3. A single repository was to be developed between each group. One person was elected to merge  pull requests as the team leader. It is required to have at least 10 substantive commits per group member that are marked "feature". Any fixes to "features" must be marked as fixes and do not count.  Commits for creating files or renaming files or other non-feature work should be named "task".  
-
 Each project* must include an explanation of how the usage of Git, Docker, automated testing, and continuous integration can improve the productivity and competitiveness of a company. It must also include a section that explains and gives example usage of Vi in order to create and edit files on Linux and the basic commands that you need to manage the file system. An explanation of the The gitFlow workflow must also be included and a section defining Git commands and terminology and examples of their use. 
 
 Each required section can be found by clicking on the Index links below.</br> 
@@ -17,8 +16,8 @@ Each required section can be found by clicking on the Index links below.</br>
 * [The gitFlow Workflow](/gitflow_1.md)
 * [Git Commands and Terminology](/repository.md)
 * [Sources, Tutorials and Additional Readings](/sources.md)
-* <a href="#changelog">Changelog</a> 
-* <a href="#contributions">Contributions</a> 
+* [Changelog](#changelog)
+* [Contributions](#contributions)
  
  
  
