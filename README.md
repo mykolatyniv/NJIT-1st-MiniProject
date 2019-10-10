@@ -69,8 +69,8 @@ Each required section can be found by clicking on the Index links below.</br>
 - 10/3/2019 Michelle comitted and added explanation for gitFlow Workflow.
 - 10/3/2019 Michelle uploaded images clone_image.png, gitflow.png, git_repos_image_source.png to image folder.
 - 10/3/2019 Michelle comitted and added definitions for gitflow and Git commands and terminology.
-- 9/30/2019 Mykola merged branch 'master' of https://github.com/mykolatyniv/NJIT-1st-Mini… … @mykolatyniv
-- 9/29/2019 Michelle forked repository created branch and submitted pull request
+- 9/30/2019 Mykola merged branch 'master' of repository
+- 9/29/2019 Michelle forked repository created branch: adding_repos_def and submitted pull request
 - 9/26/2019 Mykola Lupak created new repository
 - 9/26/2019 Mykola Lupak created file commands.md
 - 9/26/2019 Michelle Boykins and Mykola Lupad updated README.md file
