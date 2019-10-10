@@ -3,21 +3,18 @@
 
 Return to Readme Page [Click Here](/README.md)
 
-
- 
 * [Repository](#repository)
-*	<a href="#repository">Repository </a>
-* <a href="#clone">Clone</a> 
-*	<a href="#fork">Fork </a> 
-*	 <a href="#branch">Branch</a> 
-*	 <a href="#commit">Commit</a> 
-*	 <a href="#merge">Merge</a> 
-*	 <a href="#checkout">Checkout</a> 
-*	 <a href="#push">Push</a> 
-*	<a href="#pull">Pull </a> 
-*	 <a href="#remote">Remote Add / Remove / Show </a> 
-*	 <a href="#status">Status</a> 
-*	<a href="#masterbranch">Master Branch </a> 
+* [Clone](#clone)
+* [Fork](#fork)
+* [Branch](#branch)
+* [Commit](#commit)
+* [Merge](#merge)
+* [Checkout](#checkout)
+* [Push](#push)
+* [Pull](#pull)
+* [Remote Add / Remove / Show ](#remote)
+* [Status](#status)
+* [Master Branch](#masterbranch)
 
 ___________________________________________________________________________________________________________________________________
   <a name="repository">
