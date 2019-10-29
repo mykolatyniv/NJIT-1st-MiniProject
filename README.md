@@ -35,6 +35,7 @@ Each required section can be found by clicking on the Index links below.</br>
 - **The gitFlow Workflow  - Michelle Boykins**
 - **Git Commands - Michelle Boykins**
 - **Git, Docker, Automated Testing and Continuous Integration: Improve the Productivity and Competitivenes of Companies- Michelle Boykins**
+- **Calculator 2nd Project definitions- Mykola Lupak & Michelle Boykins**
 
 
 
