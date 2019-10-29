@@ -23,10 +23,13 @@ ________________________________________________________________________________
 <a name="cd">
   
 ## How Python uses Indentation to control Flow 
-- definition here
+- Python uses whitespace (i.e. indentation) to delimit scope:
+- Its rules are that: One or more whitespace characters (spaces or tabs) is sufficient to serve as indentation. A given indented block must use a uniform level of indentation.
 
 ## Example:
-- example here
+- example showing that Python uses whitespace to delimit scope
+x = 1
+if x > 10:
 </a>
 
 <a href="#top">Return to Git Commands</a>
@@ -35,11 +38,15 @@ ________________________________________________________________________________
 ___________________________________________________________________________________________________________________________________
 <a name="2"> 
   
-## Don't Repeat Yourself
-- definition here
+## Don't Repeat Yourself (DRY)
+- DRY principle is a software development practice aimed at reducing repetition of information. In this lesson, you learned how to apply DRY when making comparisons in your Python code
 
 ### Example:
 - example here
+name = 'Mahdi'
+people_i_like = ['Mahdi', 'John', 'Linda']
+if name in people_i_like:
+    print 'yay!'
 
 </a>
 
@@ -52,10 +59,7 @@ ________________________________________________________________________________
 <a name="cp"> 
   
 ## Design Patterns from Gang of Four
-- definition here
-
-### Example:
-- example here
+- Behavioural Patterns involve communication between objects, how objects interact and fulfil a given task. According to GOF principles, there are a total of 11 behavioral patterns in Python: Chain of responsibility, Command, Interpreter, Iterator, Mediator, Memento, Observer, State, Strategy, Template, Visitor.
 
 </a>
 
@@ -68,10 +72,10 @@ ________________________________________________________________________________
 <a name="pwd"> 
   
 ## Class 
-- definition here
+- A class is a code template for creating objects. Objects have member variables and have behaviour associated with them. In python a class is created by the keyword class.
 
 ### Example:
-- example here
+- Instance = class(arguments)
 
 </a>
 
