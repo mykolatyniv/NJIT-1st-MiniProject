@@ -16,10 +16,10 @@ Each required section can be found by clicking on the Index links below.</br>
 * [Vi and Basic Commands to Manage a File System](/commands.md)
 * [The gitFlow Workflow](/gitflow_1.md)
 * [Git Commands and Terminology](/repository.md)
-* [Statistics Calculator content](calculator.md)
 * [Sources, Tutorials and Additional Readings](/sources.md)
 * [Changelog](#changelog)
 * [Contributions](#contributions)
+* [2nd Mini Project Content](calculator.md)
  
  
  
