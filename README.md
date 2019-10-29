@@ -16,6 +16,7 @@ Each required section can be found by clicking on the Index links below.</br>
 * [Vi and Basic Commands to Manage a File System](/commands.md)
 * [The gitFlow Workflow](/gitflow_1.md)
 * [Git Commands and Terminology](/repository.md)
+* [Statistics Calculator content](calculator.md)
 * [Sources, Tutorials and Additional Readings](/sources.md)
 * [Changelog](#changelog)
 * [Contributions](#contributions)
@@ -43,6 +44,8 @@ Each required section can be found by clicking on the Index links below.</br>
 #### Change Log:
 |  Date  | Details  |  
 |---|---|
+|  10/28/2019  | Mykola Lupak updated README file |  
+|  10/28/2019  | Mykola Lupak created new file calculator with 2nd projects definitions |  
 |  10/9/2019  | Michelle made revisions to Readme file  |  
 |  10/8/2019  | Michelle updated content and made edits on usage_git_docker_auto_cont.md file|  
 |  10/8/2019  | Michelle updated content and made edits on Repository.md file|
