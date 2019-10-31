@@ -42,7 +42,7 @@ ________________________________________________________________________________
 - DRY principle is a software development practice aimed at reducing repetition of information. In this lesson, you learned how to apply DRY when making comparisons in your Python code
 
 ### Example:
-#### name = 'Mahdi'
+-  name = 'Mahdi'
 ####  people_i_like = ['Mahdi', 'John', 'Linda']
 ####  if name in people_i_like:
 ####  print 'yay!'
