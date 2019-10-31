@@ -27,7 +27,7 @@ ________________________________________________________________________________
 - Its rules are that: One or more whitespace characters (spaces or tabs) is sufficient to serve as indentation. A given indented block must use a uniform level of indentation.
 
 ## Example:
-- example showing that Python uses whitespace to delimit scope
+#### example showing that Python uses whitespace to delimit scope
 #### x = 1
 #### if x > 10:
 </a>
@@ -42,7 +42,7 @@ ________________________________________________________________________________
 - DRY principle is a software development practice aimed at reducing repetition of information. In this lesson, you learned how to apply DRY when making comparisons in your Python code
 
 ### Example:
--  name = 'Mahdi'
+####  name = 'Mahdi'
 ####  people_i_like = ['Mahdi', 'John', 'Linda']
 ####  if name in people_i_like:
 ####  print 'yay!'
@@ -58,7 +58,7 @@ ________________________________________________________________________________
 <a name="cp"> 
   
 ## Design Patterns from Gang of Four
-- Behavioural Patterns involve communication between objects, how objects interact and fulfil a given task. According to GOF principles, there are a total of 11 behavioral patterns in Python: Chain of responsibility, Command, Interpreter, Iterator, Mediator, Memento, Observer, State, Strategy, Template, Visitor.
+#### Behavioural Patterns involve communication between objects, how objects interact and fulfil a given task. According to GOF principles, there are a total of 11 behavioral patterns in Python: Chain of responsibility, Command, Interpreter, Iterator, Mediator, Memento, Observer, State, Strategy, Template, Visitor.
 </a>
 
 <a href="#top">Return to Git Commands</a>
@@ -73,7 +73,7 @@ ________________________________________________________________________________
 - A class is a code template for creating objects. Objects have member variables and have behaviour associated with them. In python a class is created by the keyword class.
 
 ### Example:
-- Instance = class(arguments)
+#### Instance = class(arguments)
 
 </a>
 
@@ -89,7 +89,7 @@ ________________________________________________________________________________
 - Object is simply a collection of data (variables) and methods (functions) that act on those data.
 
 ### Example:
-- ob = MyClass()
+#### ob = MyClass()
 
 </a>
 
@@ -105,7 +105,7 @@ ________________________________________________________________________________
 - The third method, MyClass.staticmethod was marked with a @staticmethod decorator to flag it as a static method. Static means, that the member is on a class level rather on the instance level. Static variables exist only in single instance per class and are not instantiated.
 
 ### Example:
-- print Example.staticVariable
+####  print Example.staticVariable
 
 </a>
 
@@ -121,8 +121,8 @@ ________________________________________________________________________________
 - The instance_attr is only accessible from the scope of an object. The class attribute (class_attr) is accessible as both a property of the class and as a property of objects, as it is shared between all of them.
 
 ### Example:
-- print (foo.istance_attr)
-- print (ExampleClass.instance_attr)
+####  print (foo.istance_attr)
+####  print (ExampleClass.instance_attr)
 
 </a>
 
@@ -138,7 +138,7 @@ ________________________________________________________________________________
 - A method is a function that takes a class instance as its first parameter. Methods are members of classes
 
 ### Example:
-- class C: def method(self, possibly, other, arguments): pass 
+#### class C: def method(self, possibly, other, arguments): pass 
 
 </a>
 
@@ -154,7 +154,7 @@ ________________________________________________________________________________
 - Python has many built-in exceptions which forces your program to output an error when something in it goes wrong.
 
 ### Example:
-- class Error(Exception):
+####  class Error(Exception):
 ####   """Base class for other exceptions"""
 ####   pass
 
@@ -171,7 +171,7 @@ ________________________________________________________________________________
 - Unit Testing is the first level of software testing where the smallest testable parts of a software are tested.
 
 ### Example:
-- import unittest 
+#### import unittest 
 #### class SimpleTest(unittest.TestCase): 
 
 </a>
@@ -187,7 +187,7 @@ ________________________________________________________________________________
 - A constructor is a special kind of method that Python calls when it instantiates an object using the definitions found in your class
 
 ### Example:
-- Type MyInstance = MyClass() and press Enter
+#### Type MyInstance = MyClass() and press Enter
 #### def __init__(self):
 </a>
 
@@ -202,7 +202,7 @@ ________________________________________________________________________________
 - Factory method is a creational design pattern which solves the problem of creating product objects without specifying their concrete classes. 
 
 ### Example:
--   def __init__(self):
+####   def __init__(self):
 ####  self.product = self._factory_method()
 </a>
 
@@ -217,7 +217,7 @@ ________________________________________________________________________________
 - A decorator is a design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure. 
 
 ### Example:
-- def plus_one(number):
+#### def plus_one(number):
 ####  def add_one(number):
 ####  return number + 1
 </a>
@@ -233,7 +233,7 @@ ________________________________________________________________________________
 - Meaning, add new methods, not change existing ones classes, even built-in ones.
 
 ### Example:
-- import Color
+#### import Color
 ####  class Color:
 ####  def getcolor(self):
 ####  return self.color + " extended!"
@@ -250,7 +250,7 @@ ________________________________________________________________________________
 - Comma Separated Values. CSV is the most common import and export format for spreadsheets and databases. CSV format was used for many years prior to attempts to describe the format in a standardized way in RFC 4180
 
 ### Example:
-- import csv
+#### import csv
 ####  with open('eggs.csv', newline='') as csvfile:
 </a>
 
@@ -265,7 +265,7 @@ ________________________________________________________________________________
 - In Python, there is no need for importing external library to read and write files. Python provides an inbuilt function for creating, writing and reading files. 
 
 ### Example:
-- f= open("guru99.txt","w+")
+####  f= open("guru99.txt","w+")
 </a>
 
 <a href="#top">Return to Git Commands</a>
