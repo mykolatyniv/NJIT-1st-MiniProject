@@ -88,10 +88,10 @@ ________________________________________________________________________________
 <a name="mv"> 
   
 ## Object
-- definition here
+- Object is simply a collection of data (variables) and methods (functions) that act on those data.
 
 ### Example:
-- example here
+-  >>> ob = MyClass()
 
 </a>
 
@@ -104,10 +104,10 @@ ________________________________________________________________________________
 <a name="rm"> 
   
 ## Static
-- definition here
+- The third method, MyClass.staticmethod was marked with a @staticmethod decorator to flag it as a static method. Static means, that the member is on a class level rather on the instance level. Static variables exist only in single instance per class and are not instantiated.
 
 ### Example:
-- example here
+- print Example.staticVariable
 
 </a>
 
@@ -120,10 +120,11 @@ ________________________________________________________________________________
 <a name="history"> 
   
 ## Property / Attribute
-- definition here
+- The instance_attr is only accessible from the scope of an object. The class attribute (class_attr) is accessible as both a property of the class and as a property of objects, as it is shared between all of them.
 
 ### Example:
-- example here
+- print (foo.istance_attr)
+- print (ExampleClass.instance_attr)
 
 </a>
 
@@ -136,10 +137,10 @@ ________________________________________________________________________________
 <a name="home"> 
   
 ## Method
-- definition here
+- A method is a function that takes a class instance as its first parameter. Methods are members of classes
 
 ### Example:
-- example here
+- class C: def method(self, possibly, other, arguments): pass 
 
 </a>
 
@@ -152,10 +153,12 @@ ________________________________________________________________________________
 <a name="file"> 
   
 ## Exception
-- definition here
+- Python has many built-in exceptions which forces your program to output an error when something in it goes wrong.
 
 ### Example:
-- example here
+- class Error(Exception):
+-   """Base class for other exceptions"""
+-   pass
 
 </a>
 
@@ -167,10 +170,11 @@ ________________________________________________________________________________
 <a name="path"> 
   
 ## Unit Test
-- definition here
+- Unit Testing is the first level of software testing where the smallest testable parts of a software are tested.
 
 ### Example:
-- example here
+- import unittest 
+- class SimpleTest(unittest.TestCase): 
 
 </a>
 
@@ -182,11 +186,11 @@ ________________________________________________________________________________
 <a name="arrow"> 
   
 ## Constructor
-- definition here
+- A constructor is a special kind of method that Python calls when it instantiates an object using the definitions found in your class
 
 ### Example:
-- example here
-
+- Type MyInstance = MyClass() and press Enter
+- def __init__(self):
 </a>
 
 <a href="#top">Return to Git Commands</a>
@@ -197,10 +201,11 @@ ________________________________________________________________________________
 <a name="vi"> 
   
 ## Factory
-- definition here
+- Factory method is a creational design pattern which solves the problem of creating product objects without specifying their concrete classes. 
 
 ### Example:
-- example here
+-   def __init__(self):
+-   self.product = self._factory_method()
 </a>
 
 <a href="#top">Return to Git Commands</a>
@@ -211,10 +216,12 @@ ________________________________________________________________________________
 <a name="Decorator"> 
   
 ## Decorator
-- definition here
+- A decorator is a design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure. 
 
 ### Example:
-- example here
+- def plus_one(number):
+- def add_one(number):
+- return number + 1
 </a>
 
 <a href="#top">Return to Git Commands</a>
@@ -225,10 +232,13 @@ ________________________________________________________________________________
 <a name="class"> 
   
 ## Extend Class
-- definition here
+- Meaning, add new methods, not change existing ones classes, even built-in ones.
 
 ### Example:
-- example here
+- import Color
+- class Color:
+- def getcolor(self):
+- return self.color + " extended!"
 </a>
 
 <a href="#top">Return to Git Commands</a>
@@ -239,10 +249,11 @@ ________________________________________________________________________________
 <a name="csv"> 
   
 ## CSV Files
-- definition here
+- Comma Separated Values. CSV is the most common import and export format for spreadsheets and databases. CSV format was used for many years prior to attempts to describe the format in a standardized way in RFC 4180
 
 ### Example:
-- example here
+- import csv
+- with open('eggs.csv', newline='') as csvfile:
 </a>
 
 <a href="#top">Return to Git Commands</a>
@@ -253,10 +264,10 @@ ________________________________________________________________________________
 <a name="reading"> 
   
 ## Reading Files
-- definition here
+- In Python, there is no need for importing external library to read and write files. Python provides an inbuilt function for creating, writing and reading files. 
 
 ### Example:
-- example here
+- f= open("guru99.txt","w+")
 </a>
 
 <a href="#top">Return to Git Commands</a>
