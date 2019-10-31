@@ -28,8 +28,8 @@ ________________________________________________________________________________
 
 ## Example:
 - example showing that Python uses whitespace to delimit scope
-x = 1
-if x > 10:
+#### x = 1
+#### if x > 10:
 </a>
 
 <a href="#top">Return to Git Commands</a>
@@ -42,11 +42,10 @@ ________________________________________________________________________________
 - DRY principle is a software development practice aimed at reducing repetition of information. In this lesson, you learned how to apply DRY when making comparisons in your Python code
 
 ### Example:
-- example here
-name = 'Mahdi'
-people_i_like = ['Mahdi', 'John', 'Linda']
-if name in people_i_like:
-    print 'yay!'
+#### name = 'Mahdi'
+####  people_i_like = ['Mahdi', 'John', 'Linda']
+####  if name in people_i_like:
+####  print 'yay!'
 
 </a>
 
@@ -60,7 +59,6 @@ ________________________________________________________________________________
   
 ## Design Patterns from Gang of Four
 - Behavioural Patterns involve communication between objects, how objects interact and fulfil a given task. According to GOF principles, there are a total of 11 behavioral patterns in Python: Chain of responsibility, Command, Interpreter, Iterator, Mediator, Memento, Observer, State, Strategy, Template, Visitor.
-
 </a>
 
 <a href="#top">Return to Git Commands</a>
@@ -91,7 +89,7 @@ ________________________________________________________________________________
 - Object is simply a collection of data (variables) and methods (functions) that act on those data.
 
 ### Example:
--  >>> ob = MyClass()
+- ob = MyClass()
 
 </a>
 
@@ -157,8 +155,8 @@ ________________________________________________________________________________
 
 ### Example:
 - class Error(Exception):
--   """Base class for other exceptions"""
--   pass
+####   """Base class for other exceptions"""
+####   pass
 
 </a>
 
@@ -174,7 +172,7 @@ ________________________________________________________________________________
 
 ### Example:
 - import unittest 
-- class SimpleTest(unittest.TestCase): 
+#### class SimpleTest(unittest.TestCase): 
 
 </a>
 
@@ -190,7 +188,7 @@ ________________________________________________________________________________
 
 ### Example:
 - Type MyInstance = MyClass() and press Enter
-- def __init__(self):
+#### def __init__(self):
 </a>
 
 <a href="#top">Return to Git Commands</a>
@@ -205,7 +203,7 @@ ________________________________________________________________________________
 
 ### Example:
 -   def __init__(self):
--   self.product = self._factory_method()
+####  self.product = self._factory_method()
 </a>
 
 <a href="#top">Return to Git Commands</a>
@@ -220,8 +218,8 @@ ________________________________________________________________________________
 
 ### Example:
 - def plus_one(number):
-- def add_one(number):
-- return number + 1
+####  def add_one(number):
+####  return number + 1
 </a>
 
 <a href="#top">Return to Git Commands</a>
@@ -236,9 +234,9 @@ ________________________________________________________________________________
 
 ### Example:
 - import Color
-- class Color:
-- def getcolor(self):
-- return self.color + " extended!"
+####  class Color:
+####  def getcolor(self):
+####  return self.color + " extended!"
 </a>
 
 <a href="#top">Return to Git Commands</a>
@@ -253,7 +251,7 @@ ________________________________________________________________________________
 
 ### Example:
 - import csv
-- with open('eggs.csv', newline='') as csvfile:
+####  with open('eggs.csv', newline='') as csvfile:
 </a>
 
 <a href="#top">Return to Git Commands</a>
