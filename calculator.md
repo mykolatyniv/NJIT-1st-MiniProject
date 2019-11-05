@@ -414,7 +414,7 @@ Bob Smith,bob@example.com,123-456-7890,123 Fake Street
 Mike Jones,mike@example.com,098-765-4321,321 Fake Avenue
 </pre>
 
-A CSV file has a fairly simple structure. It’s a list of data separated by commas. 
+A CSV file has a fairly simple structure. Itcan be a list of data separated by commas, as shown above. 
 </a>
 
 <a href="#top">Return</a>
@@ -426,6 +426,31 @@ ________________________________________________________________________________
   
 ## Reading Files
 - In Python, there is no need for importing external library to read and write files. Python provides an inbuilt function for creating, writing and reading files. 
+
+The following list the steps to reading a Python file.
+How to Read a File:
+1.  Open the file in Read mode
+<pre>
+f=open("guru99.txt", "r")
+</pre>
+2.   Use the mode function in the code to check that the file is in open mode. If yes, we proceed ahead
+<pre>
+if f.mode == 'r':
+</pre>
+Finally....
+3.  Use f.read to read file data and store it in variable content
+<pre>
+contents =f.read()
+</pre>
+You also have the ability to rad a File line by line, by typing the following command: (f1=f.readlines()) 
+When you run the code (f1=f.readlines()) for reading the file or document line by line, it will separate each line and present the file in a readable format. 
+
+#### File Modes in Python for reading or writing 
+|Mode|Description|
+|----|-----------|
+|'r'|This is the default mode. It Opens file for reading.|
+|'w'|	This Mode Opens file for writing. If file does not exist, it creates a new file. If file exists it truncates the file.|
+|'+'|	This will open a file for reading and writing (updating)|
 
 ### Example:
 ####  f= open("guru99.txt","w+")
