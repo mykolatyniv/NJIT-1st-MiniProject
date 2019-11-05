@@ -253,9 +253,25 @@ ________________________________________________________________________________
 ## Unit Test
 - Unit Testing is the first level of software testing where the smallest testable parts of a software are tested.
 
-### Example:
+A unit is the smallest testable part of any software. It usually has one or a few inputs and usually a single output. In procedural programming, a unit may be an individual program, function, procedure, etc. The purpose is to validate that each unit of the software performs as designed.
+
+### Examples:
 #### import unittest 
 #### class SimpleTest(unittest.TestCase): 
+
+#### In Python:
+<pre>
+>>> assert sum([1, 2, 3]) == 6, "Should be 6"
+</pre>
+The above python code will not output anything because the values are correct.
+
+However, in the code below a raised AssertionError will appear because the result of sum() does not match 6.
+<pre>
+>>> assert sum([1, 1, 1]) == 6, "Should be 6"
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AssertionError: Should be 6
+</pre>
 
 </a>
 
@@ -268,6 +284,9 @@ ________________________________________________________________________________
   
 ## Constructor
 - A constructor is a special kind of method that Python calls when it instantiates an object using the definitions found in your class
+Python relies on the constructor to perform tasks such as initializing (assigning values to) any instance variables that the object will need when it starts.
+
+The name of a constructor is always the same, __init__(). The constructor can accept arguments when necessary to create the object. When you create a class without a constructor, Python automatically creates a default constructor for you that doesn’t do anything. Every class must have a constructor, even if it simply relies on the default constructor.
 
 ### Example:
 #### Type MyInstance = MyClass() and press Enter
@@ -284,7 +303,17 @@ ________________________________________________________________________________
 ## Factory
 - Factory method is a creational design pattern which solves the problem of creating product objects without specifying their concrete classes. 
 
-### Example:
+In class-based programming, a factory is an abstraction of a constructor of a class, while in prototype-based programming a factory is an abstraction of a prototype object. A constructor is concrete in that it creates objects as instances of a single class, and by a specified process (class instantiation), while a factory can create objects by instantiating various classes, or by using other allocation schemes such as an object pool. A prototype object is concrete in that it is used to create objects by being cloned, while a factory can create objects by cloning various prototypes, or by other allocation schemes.
+
+Factories may be invoked in various ways, most often a method call (a factory method), sometimes by being called as a function if the factory is a function object (a factory function). 
+
+The simplest example of a factory is a simple factory function, which just invokes a constructor and returns the result. In Python, a factory function f that instantiates a class A can be implemented as:
+<pre>
+def f():
+    return A()
+</pre>
+
+### Another Example:
 ####   def __init__(self):
 ####  self.product = self._factory_method()
 </a>
