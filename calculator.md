@@ -47,7 +47,8 @@ ________________________________________________________________________________
 <a name="2"> 
   
 ## Don't Repeat Yourself (DRY)
-- DRY principle is a software development practice aimed at reducing repetition of information. In this lesson, you learned how to apply DRY when making comparisons in your Python code
+- DRY principle is a software development practice aimed at reducing repetition of information. 
+ It is a good idea to adhere to the DRY principle when writing computer code: don’t repeat yourself. If we cut and paste code to reuse it in various places, we may at some point realise our code contains an error and have to fix the error in all the places we pasted and used our code. Below, is an example of a function using DRY to replace a list of information.
 
 ### Example:
 ####  name = 'Mahdi'
@@ -67,6 +68,21 @@ ________________________________________________________________________________
   
 ## Design Patterns from Gang of Four
 #### Behavioural Patterns involve communication between objects, how objects interact and fulfil a given task. According to GOF principles, there are a total of 11 behavioral patterns in Python: Chain of responsibility, Command, Interpreter, Iterator, Mediator, Memento, Observer, State, Strategy, Template, Visitor.
+
+The Gang of Four are the four authors of the book, "Design Patterns: Elements of Reusable Object-Oriented Software". There are twenty-three design patterns described by the Gang of Four.
+
+Design patterns provide solutions to common software design problems. In the case of object-oriented programming, design patterns are generally aimed at solving the problems of object generation and interaction, rather than the larger scale problems of overall software architecture. They give generalised solutions in the form of templates that may be applied to real-world problems.
+
+The three pattern types are: 	Creational, Structural, Behavioral
+Which are further broken down by their characteristics: 
+
+|Creational|Structural|Behavioral|
+|----------|----------|-----------|
+|Abstract factory groups object factories that have a common theme.|Adapter allows classes with incompatible interfaces to work together by wrapping its own interface around that of an already existing class.|Chain of responsibility delegates commands to a chain of processing objects.|
+|Builder constructs complex objects by separating construction and representation.|Bridge decouples an abstraction from its implementation so that the two can vary independently.|Command creates objects which encapsulate actions and parameters.|
+|Factory method creates objects without specifying the exact class to create.|Composite composes zero-or-more similar objects so that they can be manipulated as one object.|Interpreter implements a specialized language.|
+|Prototype creates objects by cloning an existing object.|Decorator dynamically adds/overrides behaviour in an existing method of an object.|Iterator accesses the elements of an object sequentially without exposing its underlying representation.|
+|Singleton restricts object creation for a class to only one instance.|Facade provides a simplified interface to a large body of code.|Mediator allows loose coupling between classes by being the only class that has detailed knowledge of their methods.|
 </a>
 
 <a href="#top">Return</a>
@@ -94,7 +110,7 @@ ________________________________________________________________________________
 <a name="mv"> 
   
 ## Object
-- Object is simply a collection of data (variables) and methods (functions) that act on those data.
+- Object is simply a collection of data (variables) and methods (functions) that act on those data
 
 ### Example:
 #### ob = MyClass()
