@@ -328,10 +328,37 @@ ________________________________________________________________________________
 ## Decorator
 - A decorator is a design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure. 
 
+There are two different kinds of decorators in Python:
+* Function decorators - When a user needs to create an object that acts as a function then function decorator needs to return an object that acts like a function, so __call__ can be useful.
+* Class decorators - To define a decorator as a class we have to use a __call__ method of classes.
+
 ### Example:
-#### def plus_one(number):
-####  def add_one(number):
-####  return number + 1
+Defining Functions Inside other Functions
+<pre>
+ def plus_one(number):
+      def add_one(number):
+           return number + 1
+           
+      result = add_one(number)
+      return result
+plus_one(4)   
+
+OUTPUT:  5
+</pre>
+
+#### Creating Decorators
+Define a wrapper inside an enclosed function.
+<pre>
+def uppercase_decorator(function):
+    def wrapper():
+        func = function()
+        make_uppercase = func.upper()
+        return make_uppercase
+
+    return wrapper
+
+</pre>
+
 </a>
 
 <a href="#top">Return</a>
