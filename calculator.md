@@ -67,14 +67,13 @@ ________________________________________________________________________________
 <a name="cp"> 
   
 ## Design Patterns from Gang of Four
-#### Behavioural Patterns involve communication between objects, how objects interact and fulfil a given task. According to GOF principles, there are a total of 11 behavioral patterns in Python: Chain of responsibility, Command, Interpreter, Iterator, Mediator, Memento, Observer, State, Strategy, Template, Visitor.
 
 The Gang of Four are the four authors of the book, "Design Patterns: Elements of Reusable Object-Oriented Software". There are twenty-three design patterns described by the Gang of Four.
 
 Design patterns provide solutions to common software design problems. In the case of object-oriented programming, design patterns are generally aimed at solving the problems of object generation and interaction, rather than the larger scale problems of overall software architecture. They give generalised solutions in the form of templates that may be applied to real-world problems.
 
 The three pattern types are: 	Creational, Structural, Behavioral
-Which are further broken down by their characteristics: 
+Which are further broken down by their characteristics: (see the table below. 
 
 |Creational|Structural|Behavioral|
 |----------|----------|-----------|
@@ -199,6 +198,12 @@ ________________________________________________________________________________
 
 ### Example:
 #### class C: def method(self, possibly, other, arguments): pass 
+
+Characteristics of Python Method:
+* Method is called by its name, but it is associated to an object (dependent).
+* A method is implicitly passed the object on which it is invoked.
+* It may or may not return any data.
+* A method can operate on the data (instance variables) that is contained by the corresponding class
 
 </a>
 
