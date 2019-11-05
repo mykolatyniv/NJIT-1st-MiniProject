@@ -216,9 +216,27 @@ ________________________________________________________________________________
 <a name="file"> 
   
 ## Exception
-- Python has many built-in exceptions which forces your program to output an error when something in it goes wrong.
+An exception is an error that happens during execution of a program. When that error occurs, Python generate an exception that can be handled, which avoids your program to crash.
 
-### Example:
+#### Why use Exceptions?
+Exceptions are convenient in many ways for handling errors and special conditions in a program. When you think that you have a code which can produce an error then you can use exception handling.
+
+The following are common exception errors in Python:
+* IOError - If the file cannot be opened.
+* ImportError - If python cannot find the module
+* ValueError - Raised when a built-in operation or function receives an argument that has the right type but an inappropriate value.
+* KeyboardInterrupt - Raised when the user hits the interrupt key (normally Control-C or Delete)
+* EOFError - Raised when one of the built-in functions (input() or raw_input()) hits an end-of-file condition (EOF) without reading any data
+
+### Examples:
+<pre>
+try:
+    print 1/0
+
+except ZeroDivisionError:
+    print "You cannot divide by zero."
+</pre>
+
 ####  class Error(Exception):
 ####   """Base class for other exceptions"""
 ####   pass
