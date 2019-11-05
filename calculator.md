@@ -22,14 +22,22 @@ ________________________________________________________________________________
 </br>
 <a name="cd">
   
-## How Python uses Indentation to control Flow 
-- Python uses whitespace (i.e. indentation) to delimit scope:
-- Its rules are that: One or more whitespace characters (spaces or tabs) is sufficient to serve as indentation. A given indented block must use a uniform level of indentation.
+## How Python uses Indentation to Control Flow 
+Python uses indentation. A code block (body of a function, loop etc.) starts with indentation and ends with the first unindented line. The amount of indentation is up to you, but it must be consistent throughout that block. Generally four whitespaces are used for indentation and is preferred over tabs.
 
-## Example:
-#### example showing that Python uses whitespace to delimit scope
-#### x = 1
-#### if x > 10:
+A code block (body of a function, loop etc.) starts with indentation and ends with the first unindented line. The amount of indentation is up to you, but it must be consistent throughout that block.
+
+- Python uses whitespace (i.e. indentation) to delimit scope:
+- Rulet: One or more whitespace characters (spaces or tabs) is sufficient to serve as indentation. A given indented block must use a uniform level of indentation.
+
+### Example:
+<pre>
+for i in range(1,11):
+    print(i)
+    if i == 5:
+        break
+</pre>
+In the above code, four whitespaces are used for indentation and is preferred over tabs.
 </a>
 
 <a href="#top">Return</a>
