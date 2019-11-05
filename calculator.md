@@ -326,9 +326,9 @@ ________________________________________________________________________________
 <a name="Decorator"> 
   
 ## Decorator
-- A decorator is a design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure. 
+- A decorator is a design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure. More specifically, a decorator in Python is any callable Python object that is used to modify a function or a class.
 
-There are two different kinds of decorators in Python:
+There are two different kinds of decorators in Python, however they have the same underlying concept:
 * Function decorators - When a user needs to create an object that acts as a function then function decorator needs to return an object that acts like a function, so __call__ can be useful.
 * Class decorators - To define a decorator as a class we have to use a __call__ method of classes.
 
@@ -386,11 +386,35 @@ ________________________________________________________________________________
 <a name="csv"> 
   
 ## CSV Files
-- Comma Separated Values. CSV is the most common import and export format for spreadsheets and databases. CSV format was used for many years prior to attempts to describe the format in a standardized way in RFC 4180
+- Comma Separated Values or Comma Delimited files. 
+CSV is the most common import and export format for spreadsheets and databases. These files are often used for exchanging data between different applications. They mostly use the comma character to separate (or delimit) data, but sometimes use other characters, like semicolons. The idea is that you can export complex data from one application to a CSV file, and then import the data in that CSV file into another application. CSV format was used for many years prior to attempts to describe the format in a standardized way in RFC 4180.
 
-### Example:
+RFC 4180 formalized CSV. It defines the MIME type "text/csv", and CSV files that follow its rules should be very widely portable. Among its requirements: 
+
+* MS-DOS-style lines that end with (CR/LF) characters (optional for the last line).
+* An optional header record (there is no sure way to detect whether it is present, so care is required when importing).
+* Each record "should" contain the same number of comma-separated fields.
+* Any field may be quoted (with double quotes).
+* Fields containing a line-break, double-quote or commas should be quoted. (If they are not, the file will likely be impossible to      process correctly).
+* A (double) quote character in a field must be represented by two (double) quote characters.
+
+The format can be processed by most programs that claim to read CSV files. The exceptions are (a) programs may not support line-breaks within quoted fields, (b) programs may confuse the optional header with data or interpret the first data line as an optional header and (c) double quotes in a field may not be parsed correctly automatically.
+
+
+### Example of code use in an application:
 #### import csv
 ####  with open('eggs.csv', newline='') as csvfile:
+
+### Example of .csv data :
+<pre>
+Name,Email,Phone Number,Address
+
+Bob Smith,bob@example.com,123-456-7890,123 Fake Street
+
+Mike Jones,mike@example.com,098-765-4321,321 Fake Avenue
+</pre>
+
+A CSV file has a fairly simple structure. It’s a list of data separated by commas. 
 </a>
 
 <a href="#top">Return</a>
