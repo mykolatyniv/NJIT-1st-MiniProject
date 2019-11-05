@@ -83,6 +83,12 @@ Which are further broken down by their characteristics:
 |Factory method creates objects without specifying the exact class to create.|Composite composes zero-or-more similar objects so that they can be manipulated as one object.|Interpreter implements a specialized language.|
 |Prototype creates objects by cloning an existing object.|Decorator dynamically adds/overrides behaviour in an existing method of an object.|Iterator accesses the elements of an object sequentially without exposing its underlying representation.|
 |Singleton restricts object creation for a class to only one instance.|Facade provides a simplified interface to a large body of code.|Mediator allows loose coupling between classes by being the only class that has detailed knowledge of their methods.|
+|..   |Flyweight reduces the cost of creating and manipulating a large number of similar objects.|Memento provides the ability to restore an object to its previous state (undo).|
+|..|Proxy provides a placeholder for another object to control access, reduce cost, and reduce complexity.|Observer is a publish/subscribe pattern which allows a number of observer objects to see an event.|
+|..  |..  |State allows an object to alter its behavior when its internal state changes.|
+|..  |..  |Strategy allows one of a family of algorithms to be selected on-the-fly at runtime.|
+|..  |..  |Template method defines the skeleton of an algorithm as an abstract class, allowing its subclasses to provide concrete behavior.|
+|..  |..  |Visitor separates an algorithm from an object structure by moving the hierarchy of methods into one object.|
 </a>
 
 <a href="#top">Return</a>
