@@ -45,7 +45,6 @@ Each required section can be found by clicking on the Index links below.</br>
 #### Change Log:
 |  Date  | Details  |  
 |---|---|
-
 |  11/5/2019  | Michelle updated definition for Python Indentation|
 |  11/5/2019  | Michelle updated definition for Design Patterns from GOF Definition
 |  11/5/2019  | Michelle updated definition for GOF Gang of Four created table with terms|
