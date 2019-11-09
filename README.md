@@ -19,7 +19,7 @@ Each required section can be found by clicking on the Index links below.</br>
 * [Sources, Tutorials and Additional Readings](/sources.md)
 * [Changelog](#changelog)
 * [Contributions](#contributions)
-* [2nd Mini Project Content](calculator.md)
+* [2nd Mini Project Content - Definitions and Examples of Terms](calculator.md)
  
  
  
@@ -45,6 +45,8 @@ Each required section can be found by clicking on the Index links below.</br>
 #### Change Log:
 |  Date  | Details  |  
 |---|---|
+|  11/9/2019  | Michelle updated definition for extend class.|
+|  11/9/2019  | Michelle updated definition for term object.|
 |  11/9/2019  | Michelle updated sources file with sources for newly added terminology.|
 |  11/5/2019  | Michelle updated definition for Python Indentation|
 |  11/5/2019  | Michelle updated definition for Design Patterns from GOF Definition
