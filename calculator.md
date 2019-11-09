@@ -128,7 +128,10 @@ ________________________________________________________________________________
 <a name="mv"> 
   
 ## Object
-- Object is simply a collection of data (variables) and methods (functions) that act on those data
+In computer science, an object can be a variable, a data structure, a function, or a method, and as such, is a value in memory referenced by an identifier.
+In the class-based object-oriented programming paradigm, object refers to a particular instance of a class, where the object can be a combination of variables, functions, and data structures.
+
+- Simply put, an Object is simply a collection of data (variables) and methods (functions) that acts on data.
 
 ### Example:
 #### ob = MyClass()
@@ -370,6 +373,10 @@ ________________________________________________________________________________
   
 ## Extend Class
 - Meaning, add new methods, not change existing ones classes, even built-in ones.
+
+Extends means that you are creating a subclass of the base class you are extending. You can only extend one class in your child class, but you can implement as many interfaces as you would like.
+
+When you extend a class, you have a parent-child relation between the original one and the new, extending one. The child class, the one extending the parent class, will have each and every member of the parent class, without the need to declare them again.
 
 ### Example:
 #### import Color
