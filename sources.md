@@ -94,4 +94,40 @@ https://www.youtube.com/watch?v=HMpB28l1sLc
 **VI Editor - Linux Tutorial #14 - YouTube**</br>
 https://www.youtube.com/watch?v=pU2k776i2Zw
 
+**Python Statement, Indentation and Comments**</br>
+https://www.programiz.com/python-programming/statement-indentation-comments
+
+**Don't repeat yourself**</br>
+https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
+
+**Gang of Four Design Patterns**</br>
+http://www.blackwasp.co.uk/gofpatterns.aspx
+
+
+**Design Patterns**</br>
+https://en.wikipedia.org/wiki/Design_Patterns#Creational
+
+**Python Classes and Methods**</br>
+https://www.hackerearth.com/practice/python/object-oriented-programming/classes-and-objects-i/tutorial/
+
+
+**Class Attribute vs. Instance Attribute In Python: What You Might Have Missed**</br>
+https://dzone.com/articles/python-class-attributes-vs-instance-attributes
+
+**Difference between Method and Function in Python**</br>
+https://www.geeksforgeeks.org/difference-method-function-python/
+
+
+**Exception Handling in Python**</br>
+https://www.pythonforbeginners.com/error-handling/exception-handling-in-python
+
+**Unit Testing**</br>
+http://softwaretestingfundamentals.com/unit-testing/
+
+**Getting Started With Testing in Python**</br>
+https://en.wikipedia.org/wiki/Factory_(object-oriented_programming)
+
+**Decorators in Python**</br>
+https://www.datacamp.com/community/tutorials/decorators-python
+
 Return to Readme [Click Here](/README.md)
