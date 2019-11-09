@@ -45,6 +45,18 @@ Each required section can be found by clicking on the Index links below.</br>
 #### Change Log:
 |  Date  | Details  |  
 |---|---|
+
+|  11/5/2019  | Michelle updated definition for Python Indentation|
+|  11/5/2019  | Michelle updated definition for Design Patterns from GOF Definition
+|  11/5/2019  | Michelle updated definition for GOF Gang of Four created table with terms|
+|  11/5/2019  | Michelle updated definition for Class and Object|
+|  11/5/2019  | Michelle updated definition for Property / Attribute|
+|  11/5/2019  | Michelle updated definition of Method|
+|  11/5/2019  | Michelle updated definition for Exception|
+|  11/5/2019  | Michelle updated definition for Constructor and Factory|
+|  11/5/2019  | Michelle updated Definition for Decorator|
+|  11/5/2019  | Michelle updated definition for CSV file|
+|  11/5/2019  | Michelle updated definition for Reading Files|
 |  10/28/2019  | Mykola Lupak updated README file |  
 |  10/28/2019  | Mykola Lupak created new file calculator with 2nd projects definitions |  
 |  10/9/2019  | Michelle made revisions to Readme file  |  
