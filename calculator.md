@@ -148,11 +148,29 @@ ________________________________________________________________________________
 <a name="rm"> 
   
 ## Static
-- The third method, MyClass.staticmethod was marked with a @staticmethod decorator to flag it as a static method. Static means, that the member is on a class level rather on the instance level. Static variables exist only in single instance per class and are not instantiated.
+
+In computer programming, a static variable is a variable that has been allocated "statically", meaning that its lifetime (or "extent") is the entire run of the program. This is in contrast to shorter-lived automatic variables, whose storage is stack allocated and deallocated on the call stack; and in contrast to objects, whose storage is dynamically allocated and deallocated in heap memory.
+
+Therefore a static method can neither modify object state nor class state. Static methods are restricted in what data they can access - and they’re primarily a way to namespace your methods.
 
 ### Example:
-####  print Example.staticVariable
+In the example below: 
+- The third method, MyClass.staticmethod was marked with a @staticmethod decorator to flag it as a static method. Static means, that the member is on a class level rather on the instance level. Static variables exist only in single instance per class and are not instantiated.
 
+<pre>
+class MyClass:
+    def method(self):
+        return 'instance method called', self
+
+    @classmethod
+    def classmethod(cls):
+        return 'class method called', cls
+
+    @staticmethod
+    def staticmethod():
+        return 'static method called'
+
+</pre>
 </a>
 
 <a href="#top">Return</a>
