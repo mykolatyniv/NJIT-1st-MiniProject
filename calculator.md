@@ -1,4 +1,4 @@
-﻿# 2nd Mini Project Part <a name="top">
+﻿# 2nd Mini Project- Definitions and Examples <a name="top">
 
 Return to Readme Page [Click Here](/README.md)
 
